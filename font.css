@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'NotoSansKR';
+    src: local('NotoSansKR'),
+    url(fonts/NotoSansKR-Bold.woff2),
+    url(fonts/NotoSansKR-Bold.woff);
+    font-style: normal;
+    font-display: swap;
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'NotoSansKR';
+    src: local('NotoSansKR'),
+    url(fonts/NotoSansKR-Medium.woff2),
+    url(fonts/NotoSansKR-Medium.woff);
+    font-style: normal;
+    font-display: swap;
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'NotoSansKR';
+    src: local('NotoSansKR'),
+    url(fonts/NotoSansKR-Regular.woff2),
+    url(fonts/NotoSansKR-Regular.woff);
+    font-style: normal;
+    font-display: swap;
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'NotoSansKR';
+    src: local('NotoSansKR'),
+    url(fonts/NotoSansKR-Light.woff2),
+    url(fonts/NotoSansKR-Light.woff);
+    font-style: normal;
+    font-display: swap;
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'FiraSans';
+    src: local('FiraSans'),
+    url(fonts/FiraSans-Bold.woff2),
+    url(fonts/FiraSans-Bold.woff);
+    font-style: normal;
+    font-display: swap;
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'FiraSans';
+    src: local('FiraSans'),
+    url(fonts/FiraSans-Regular.woff2),
+    url(fonts/FiraSans-Regular.woff);
+    font-style: normal;
+    font-display: swap;
+    font-weight: 400;
+}
