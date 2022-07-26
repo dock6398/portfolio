@@ -304,12 +304,13 @@ body {
 .container figure h2 {
     font-size: 23px;
     font-weight: bold;
-    margin: 60px 35px 30px;
+    margin: 60px 0 30px 35px;
 }
 .container figure p {
     font-weight: 500;
     margin-left: 35px;
     margin-bottom: 60px;
+    width: 149px;
 }
 .container figure a {
     width: 100%; height: 100%;
@@ -332,20 +333,11 @@ body {
 .container figure .gallery1 {
     background: url(./images/gallery1.png) no-repeat 50% 50% / cover;
 }
-.container figure .gallery2 p {
-    margin-right: 38px;
-}
-.container figure .gallery3 p {
-    margin-right: 39px;
-}
 .container figure .gallery4 {
     background: url(./images/gallery4.png) no-repeat 50% 50% / cover;
 }
 .container figure .gallery5 {
     background: url(./images/gallery5.png) no-repeat 50% 50% / cover;
-}
-.container figure .gallery6 p {
-    margin-right: 11px;
 }
 .container figure .gallery7 {
     background: url(./images/gallery7.png) no-repeat 50% 50% / cover;
