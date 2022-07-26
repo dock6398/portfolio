@@ -79,6 +79,7 @@ body {
     margin: 99px 0 25px 35px;
 }
 .container main aside .table p {
+    width: 233px;
     font-size: 20px;
     font-weight: 400;
     margin-left: 35px;
@@ -117,8 +118,10 @@ body {
     margin-bottom: 22px;
 }
 .container main aside .table2 p {
+    width: auto;
     text-align: right;
     margin-right: 35px;
+    margin-left: 0;
 }
 .container main aside .table2 span a {
     margin-top: 44px;
