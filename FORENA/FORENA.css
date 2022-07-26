@@ -96,7 +96,7 @@ body {
 .container main aside .table span {
     display: flex;
     justify-content: right;
-    margin-right: 35px;
+    margin-right: 7%;
 }
 .container main aside .table1 span {
     justify-content: left;
