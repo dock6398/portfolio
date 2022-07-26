@@ -206,21 +206,24 @@ body {
 }
 .container article #channel .chan1 {
     width: 60vw; height: auto;
-    max-width: 700px;
+    max-width: 500px;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
 }
 .container article #channel .chan1 img {
     width: 60vw;
+    max-width: 500px;
 }
 .container article #channel .chan2 {
     width: 60%; height: auto;
+    max-width: 500px;
     position: absolute;
-    right: -55%;
+    left: 92vw;
 }
 .container article #channel .chan2 img {
     width: 60%;
+    max-width: 500px;
 }
 .container article #channel .chan2 p {
     width: 350px;
