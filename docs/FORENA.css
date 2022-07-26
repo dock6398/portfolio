@@ -58,7 +58,7 @@ body {
 .container nav #gnb.box li {
     font-size: 18px;
     background-color: #003366;
-    padding: 30px;
+    padding: 5px 10px;
     border-bottom: 0;
     display: flex;
     align-items: center;
