@@ -60,11 +60,6 @@
         cursor: pointer;
         letter-spacing: -0.05em;
     }
-    .container nav #gnb li:hover {
-        background-color: #000;
-        cursor: pointer;
-        border: 0;
-    }
     .container nav #gnb li:first-child{
         margin-top: 0;
         margin-left: 34.9479vw;
@@ -121,12 +116,6 @@
         margin: 0;
         margin-top: 390px;
     }
-    .container main aside .table1 span a:hover {
-        background-color: #003366;
-        color: #fff;
-        cursor: pointer;
-        border: 0;        
-    }
     .container main aside .table2 {
         position: relative;
         margin-bottom: 28.1250vw;
@@ -161,12 +150,6 @@
         margin-left: 297px;
         margin-top: 170px;
     }
-    .container main aside .table2 span a:hover {
-        background-color: #003366;
-        color: #fff;
-        cursor: pointer;
-        border: 0;
-    }
     .container main aside .table3 {
         width: calc(100% - 420px);
         max-width: 1500px;
@@ -193,12 +176,6 @@
         margin: 0 auto;
         margin-bottom: 5.9896vw;
         transition: .5s;
-    }
-    .container main aside .table3 span a:hover {
-        background-color: #003366;
-        color: #fff;
-        cursor: pointer;
-        border: 0;
     }
     .container main aside .table3 div {
         margin-bottom: 2.6042vw;
@@ -309,12 +286,6 @@
     .container .gallery-logo p a {
         width: 174.68px; height: 66px;
         margin-left: 0;
-    }
-    .container .gallery-logo p a:hover {
-        background-color: #003366;
-        color: #fff;
-        cursor: pointer;
-        border: 0;
     }
     .container figure {
         display: block;
@@ -468,11 +439,5 @@
         right: 50px;
         bottom: 44px;
         padding: 22px 30px;
-    }
-    .container footer .poto span:hover {
-        background-color: #003366;
-        color: #fff;
-        cursor: pointer;
-        border: 0;
     }
 }

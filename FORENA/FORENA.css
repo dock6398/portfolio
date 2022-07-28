@@ -65,6 +65,11 @@ body {
     border-top: 1px solid #fff;
     display: none;
 }
+.container nav #gnb li:hover {
+    background-color: #000;
+    cursor: pointer;
+    border: 0;
+}
 .container nav #gnb li:first-child {
     margin-top: 58px;
 }
@@ -80,11 +85,6 @@ body {
     align-items: center;
     justify-content: left;
     border-top: 1px solid #fff;
-}
-.container nav #gnb.box li:hover {
-    background-color: #000;
-    cursor: pointer;
-    border: 0;
 }
 .container nav #gnb li a {
     color: #fff;
@@ -133,6 +133,12 @@ body {
 .container main aside .table1 p {
     margin-right: 112px;
 }
+.container main aside .table1 span a:hover {
+    background-color: #003366;
+    color: #fff;
+    cursor: pointer;
+    border: 0;        
+}
 .container main aside .table2 img {
     width: calc(100% - 35px);
     height: 56.4103vw;
@@ -154,6 +160,12 @@ body {
 .container main aside .table2 span a {
     margin-top: 44px;
     margin-bottom: 114px;
+}
+.container main aside .table2 span a:hover {
+    background-color: #003366;
+    color: #fff;
+    cursor: pointer;
+    border: 0;
 }
 .container main aside .table3 {
     width: 100%;
@@ -195,6 +207,12 @@ body {
     justify-content: center;
     align-items: center;
     padding: 13px 15px 13px 26px;
+}
+.container main aside .table3 span a:hover {
+    background-color: #003366;
+    color: #fff;
+    cursor: pointer;
+    border: 0;
 }
 .container main aside .table3 span img {
     margin: 0;
@@ -332,6 +350,12 @@ body {
     font-size: 18px;
     font-weight: 400;
     letter-spacing: -0.05em;
+}
+.container .gallery-logo p a:hover {
+    background-color: #003366;
+    color: #fff;
+    cursor: pointer;
+    border: 0;
 }
 .container figure {
     margin: 0 auto;
@@ -481,4 +505,10 @@ body {
     position: absolute;
     bottom: 30px; right: 35px;
     font-weight: 500;
+}
+.container footer .poto span:hover {
+    background-color: #003366;
+    color: #fff;
+    cursor: pointer;
+    border: 0;
 }
