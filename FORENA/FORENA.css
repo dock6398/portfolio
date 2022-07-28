@@ -464,13 +464,16 @@ body {
     font-weight: 500;
     padding: 0;
 }
+.container footer .poto {
+    color: #000;
+    font-weight: bold;
+    display: block;
+    width: 100%;
+}
 .container footer span {
     background-color: #fff;
     padding: 11px 5px;
     position: absolute;
     bottom: 30px; right: 35px;
-}
-.container footer span a {
-    color: #000;
-    font-weight: bold;
+    font-weight: 400;
 }
