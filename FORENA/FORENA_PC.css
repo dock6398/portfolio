@@ -336,6 +336,10 @@
         left: 69.5313vw;
     }
     /* 광고 영역 */
+    /* .container main #cf {
+        border-bottom: 3px solid #000;
+        margin-bottom: 150px;
+    } */
     .container #cf h2 {
         font-size: 24px;
         font-weight: bold;
@@ -348,13 +352,14 @@
     .container #cf a h3 {
         font-size: 16px;
         width: auto;
+        margin-bottom: 71px;
     }
     .container #cf .cf {
-        width: calc(100% - 17.7083vw);
+        width: calc(100% - 35.4167vw);
         max-width: 1240px;
         margin: 0 auto;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
     }
     .container #cf .cf1 {
         position: inherit;
@@ -375,7 +380,7 @@
         padding-top: 0;
         margin-top: 70px;
         margin-bottom: 150px;
-        width: calc(100% - 17.7083vw);
+        width: calc(100% - 35.4167vw);
     }
     /* footer 영역 */
     .container footer {

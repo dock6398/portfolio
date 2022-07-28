@@ -320,7 +320,8 @@ body {
     font-weight: 400;
 }
 .container figure {
-    background-color: #003366;
+    margin: 0 auto;
+    max-width: 700px;
     color: #fff;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -356,6 +357,11 @@ body {
     opacity: 1;
     display: grid;
     place-items: center;
+}
+.container figure .gallery {
+    background-color: #003366;
+    max-width: 350px;
+    max-height: 349px;
 }
 .container figure .gallery1 {
     background: url(./images/gallery1.png) no-repeat 50% 50% / cover;
