@@ -46,18 +46,24 @@
     }
     .container nav #gnb {
         height: 78px;
+        text-align: center;
     }
     .container nav #gnb li {
-        padding: 20px;
         background-color: transparent;
         display: grid;
         border: 0;
+        height: 78px;
+        line-height: 78px;
+        padding: 0;
         float: left;
         padding-right: 0;
         cursor: pointer;
-        margin-left: 1.5625vw;
-        padding-left: 0;
         letter-spacing: -0.05em;
+    }
+    .container nav #gnb li:hover {
+        background-color: #000;
+        cursor: pointer;
+        border: 0;
     }
     .container nav #gnb li:first-child{
         margin-top: 0;
@@ -70,13 +76,18 @@
         transform: translateY(-50%);
     }
     .container nav #gnb li:nth-child(8) {
+        width: 65px;
         position: absolute;
-        right: 35px;
+        right: 0;
+        padding-right: 35px;
         top: 50%;
         transform: translateY(-50%);
+        line-height: 0;
     }
     .container nav #gnb li a {
         display: block;
+        padding-left: 0.78125vw;
+        padding-right: 0.78125vw;
     }
     .container nav #gnb li:last-child a img {
         width: 25px;
@@ -109,6 +120,12 @@
         top: 0;
         margin: 0;
         margin-top: 390px;
+    }
+    .container main aside .table1 span a:hover {
+        background-color: #003366;
+        color: #fff;
+        cursor: pointer;
+        border: 0;        
     }
     .container main aside .table2 {
         position: relative;
@@ -144,6 +161,12 @@
         margin-left: 297px;
         margin-top: 170px;
     }
+    .container main aside .table2 span a:hover {
+        background-color: #003366;
+        color: #fff;
+        cursor: pointer;
+        border: 0;
+    }
     .container main aside .table3 {
         width: calc(100% - 420px);
         max-width: 1500px;
@@ -169,6 +192,13 @@
         min-width: 300px;
         margin: 0 auto;
         margin-bottom: 5.9896vw;
+        transition: .5s;
+    }
+    .container main aside .table3 span a:hover {
+        background-color: #003366;
+        color: #fff;
+        cursor: pointer;
+        border: 0;
     }
     .container main aside .table3 div {
         margin-bottom: 2.6042vw;
@@ -279,6 +309,12 @@
     .container .gallery-logo p a {
         width: 174.68px; height: 66px;
         margin-left: 0;
+    }
+    .container .gallery-logo p a:hover {
+        background-color: #003366;
+        color: #fff;
+        cursor: pointer;
+        border: 0;
     }
     .container figure {
         display: block;
@@ -432,5 +468,11 @@
         right: 50px;
         bottom: 44px;
         padding: 22px 30px;
+    }
+    .container footer .poto span:hover {
+        background-color: #003366;
+        color: #fff;
+        cursor: pointer;
+        border: 0;
     }
 }
