@@ -345,7 +345,6 @@ body {
     color: #fff;
     font-size: 23px;
     font-weight: bold;
-    transform: rotateY(-30px);
     opacity: 0;
     transition: .4s;
     display: grid;

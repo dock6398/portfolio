@@ -203,7 +203,7 @@
     }
     .container article #news .new p {
         font-size: 16px;
-        font-weight: 300px;
+        font-weight: 300;
         margin-bottom: 30px;
     }
     .container article #news .new span {
@@ -285,6 +285,13 @@
         font-size: 16px;
         margin-top: 3.3854vw;
         margin-left: 2.5521vw;
+    }
+    .container figure .gallery:hover a {
+        backdrop-filter: blur(4px);
+        cursor: pointer;
+        opacity: 1;
+        display: grid;
+        place-items: center;
     }
     .container figure .gallery {
         width: 19.5313vw;
