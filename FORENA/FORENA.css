@@ -1,7 +1,11 @@
 @charset "UTF-8";
+html {
+    max-width: 100%;
+    overflow-x: hidden;
+}
 body {
     font-family: 'Noto Sans KR', '맑은 고딕', '돋움체', sans-serif;
-    width: 100%;
+    max-width: 100%;
     overflow-x: hidden;
 }
 .container header {
