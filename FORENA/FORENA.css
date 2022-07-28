@@ -81,6 +81,11 @@ body {
     justify-content: left;
     border-top: 1px solid #fff;
 }
+.container nav #gnb.box li:hover {
+    background-color: #000;
+    cursor: pointer;
+    border: 0;
+}
 .container nav #gnb li a {
     color: #fff;
 }
