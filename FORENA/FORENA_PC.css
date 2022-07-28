@@ -115,7 +115,8 @@
         margin-bottom: 28.1250vw;
     }
     .container main aside .table2 img {
-        width: calc(50% - 210px); height: 28.1250vw;
+        width: 50%;
+        height: 28.1250vw;
         position: absolute;
         left: 50%; top: 0;
         margin: 0;
@@ -147,7 +148,7 @@
         width: calc(100% - 420px);
         max-width: 1500px;
         height: 700px;
-        margin: 0 auto 10.3154vw;
+        margin: 0 auto 9.3750vw;
     }
     .container main aside .table3 img {
         width: 16.9980vw; height: 2.4667vw;
@@ -188,18 +189,15 @@
     }
     .container article #news .news {
         display: flex;
+        justify-content: space-between;
         margin-left: 16.6667vw;
         margin-right: 16.6667vw;
     }
     .container article #news .new {
+        width: 20.8333vw;
+        max-width: 300px;
         border: 0;
         margin-left: 0;
-    }
-    .container article #news .new2 {
-        margin-left: 5.0521vw;
-    }
-    .container article #news .new3 {
-        margin-left: 5.0521vw;
     }
     .container article #news .new p {
         font-size: 16px;
@@ -209,6 +207,7 @@
     .container article #news .new span {
         font-size: 22px;
         margin-right: 0;
+        line-height: 32px;
     }
     .container article #channel .chan-top {
         margin: 6.4063vw 0 2.9688vw;
@@ -218,33 +217,41 @@
         margin-right: 16.6667vw;
     }
     .container article #channel .chanbox {
+        width: 100%;
         display: flex;
         position: static;
+        justify-content: space-between;
     }
     .container article #channel .chan1 {
         width: 20.8333vw;
+        max-width: 300px;
         position: sticky;
     }
     .container article #channel .chan1 img {
         width: 20.8333vw;
+        max-width: 300px;
         height: 13.9063vw;
     }
     .container article #channel .chan2 {
         width: 20.8333vw;
+        max-width: 300px;
         position: sticky;
         margin-left: 2.0833vw;
     }
     .container article #channel .chan2 img {
         width: 20.8333vw;
+        max-width: 300px;
         height: 11.8750vw;
     }
     .container article #channel .chan3 {
         width: 20.8333vw;
+        max-width: 300px;
         position: sticky;
         margin-left: 2.0833vw;
     }
     .container article #channel .chan3 img {
         width: 20.8333vw;
+        max-width: 300px;
         height: 11.8750vw;
     }
     .container article #channel .chan p {
@@ -343,10 +350,6 @@
         left: 69.5313vw;
     }
     /* 광고 영역 */
-    /* .container main #cf {
-        border-bottom: 3px solid #000;
-        margin-bottom: 150px;
-    } */
     .container #cf h2 {
         font-size: 24px;
         font-weight: bold;
@@ -426,7 +429,8 @@
         margin-bottom: 26px;
     }
     .container footer span {
-        right: 50px;
-        bottom: 44px;
+        right: 314px;
+        bottom: 30px;
+        padding: 20px 30px;
     }
 }
