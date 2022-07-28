@@ -334,8 +334,8 @@ body {
 .container figure p {
     font-weight: 500;
     margin-left: 35px;
-    margin-bottom: 60px;
-    width: 149px;
+    margin-bottom: 15.3846vw;
+    margin-right: 38px;
     line-height: 24px;
     letter-spacing: -0.05em;
 }

@@ -1,4 +1,7 @@
 @media screen and (min-width : 1240px) {
+    body {
+        overflow: hidden;
+    }
 
     /* 다운 클래스 부분 */
     .down {
@@ -283,61 +286,51 @@
         margin-top: 3.3854vw;
         margin-left: 2.5521vw;
     }
-    .container figure .gallery1 {
+    .container figure .gallery {
         width: 19.5313vw;
         height: 19.4271vw;
+        max-width: 375px;
+        max-height: 373px;
+    }
+    .container figure .gallery1 {
         position: absolute;
         top: 13.6979vw;
         left: 10.9375vw;
     }
     .container figure .gallery2 {
-        width: 19.5313vw;
-        height: 19.4271vw;
         position: absolute;
         top: 13.6979vw;
         left: 30.4688vw;
         background-color: #003366;
     }
     .container figure .gallery3 {
-        width: 19.5313vw;
-        height: 19.4271vw;
         position: absolute;
         top: 13.6979vw;
         left: 69.5313vw;
         background-color: #003366;
     }
     .container figure .gallery4 {
-        width: 19.5313vw;
-        height: 19.4271vw;
         position: absolute;
         top: 13.6979vw;
         left: 50vw;
     }
     .container figure .gallery5 {
-        width: 19.5313vw;
-        height: 19.4271vw;
         position: absolute;
         top: 33.1250vw;
         left: 30.4688vw;
     }
     .container figure .gallery6 {
-        width: 19.5313vw;
-        height: 19.4271vw;
         position: absolute;
         top: 33.1250vw;
         left: 10.9375vw;
         background-color: #003366;
     }
     .container figure .gallery7 {
-        width: 19.5313vw;
-        height: 19.4271vw;
         position: absolute;
         top: 33.1250vw;
         left: 50vw;
     }
     .container figure .gallery8 {
-        width: 19.5313vw;
-        height: 19.4271vw;
         position: absolute;
         top: 33.1250vw;
         left: 69.5313vw;
