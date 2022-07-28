@@ -9,8 +9,17 @@
         transition-timing-function: ease;
     }
     /* 비디오 영역 */
+    .container header .bg {
+        width: 100%;
+        height: 42.6563vw;
+        padding: 0;
+        margin: 0;
+    }
     .container header video {
-        margin-top: 0;
+        width: 100%;
+        max-width: 1000%;
+        left: 0; top: 0;
+        object-fit: fill;
     }
     /* 메뉴 영역 */
     .container nav {
@@ -26,8 +35,8 @@
         top: 18px;
     }
     .container nav #navlogo img {
-        width: 242px; height: 38px;
-        margin-left: 30px;
+        width: 12.6042vw; height: 38px;
+        margin-left: 1.5625vw;
     }
     .container nav #menu {
         display: none;
@@ -36,24 +45,39 @@
         height: 78px;
     }
     .container nav #gnb li {
-        height: 78px;
+        padding: 20px;
         background-color: transparent;
         display: grid;
         border: 0;
         float: left;
         padding-right: 0;
         cursor: pointer;
-        margin-left: 2.0631vw;
+        margin-left: 1.5625vw;
+        padding-left: 0;
+        letter-spacing: -0.05em;
     }
     .container nav #gnb li:first-child{
         margin-top: 0;
-        margin-left: 30.0940vw;
+        margin-left: 34.9479vw;
     }
-    /* .container nav #gnb li:nth-child(7) {
-        margin-left: 17.4115vw;
-    } */
+    .container nav #gnb li:nth-child(7) {
+        position: absolute;
+        right: 104px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .container nav #gnb li:nth-child(8) {
+        position: absolute;
+        right: 35px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
     .container nav #gnb li a {
         display: block;
+    }
+    .container nav #gnb li:last-child a img {
+        width: 25px;
+        height: 18px;
     }
     /* main 영역 */
     .container main aside .table1 {
@@ -61,6 +85,7 @@
     }
     .container main aside .table1 img {
         width: 50%;
+        margin-left: 0;
     }
     .container main aside .table1 h1 {
         position: absolute;
@@ -73,13 +98,14 @@
         top: 7.3105vw;
         margin: 0;
         margin-top: 60px;
+        margin-right: 19.2708vw;
     }
     .container main aside .table1 span a {
         position: absolute;
         left: 55.2083vw;
-        top: 7.3105vw;
+        top: 0;
         margin: 0;
-        margin-top: 203px;
+        margin-top: 390px;
     }
     .container main aside .table2 {
         position: relative;
@@ -103,6 +129,8 @@
         margin: 0;
         margin-left: 297px;
         margin-top: 60px;
+        width: 22.2917vw;
+        text-align: left;
     }
     .container main aside .table2 span a {
         position: absolute;
@@ -115,24 +143,31 @@
     .container main aside .table3 {
         width: calc(100% - 420px);
         max-width: 1500px;
+        height: 700px;
         margin: 0 auto 10.3154vw;
     }
     .container main aside .table3 img {
         width: 16.9980vw; height: 2.4667vw;
-        margin: 6.7274vw auto 1.5697vw;
+        margin: 7.8125vw auto 1.8229vw;
     }
     .container main aside .table3 h1 {
         font-size: 22px;
-        margin-bottom: 1.3455vw;
+        margin-bottom: 1.5625vw;
     }
     .container main aside .table3 p {
         font-size: 22px;
         width: 50vw;
+        line-height: 38px;
+        margin-bottom: 3.6458vw;
     }
     .container main aside .table3 span a {
         width: 15.6973vw;
         min-width: 300px;
-        margin: 3.9916vw auto;
+        margin: 0 auto;
+        margin-bottom: 5.9896vw;
+    }
+    .container main aside .table3 div {
+        margin-bottom: 2.6042vw;
     }
     /* 뉴스 & 채널 영역 */
     .container article h1 {
@@ -141,21 +176,27 @@
     }
     .container article p a {
         font-size: 12px;
-        right: 14.3519vw;
+        right: 16.6667vw;
     }
     .container article #news .new-top {
         border: 0;
-        margin-left: 14.3519vw;
+        margin-left: 16.6667vw;
+        margin-right: 16.6667vw;
     }
     .container article #news .news {
         display: flex;
+        margin-left: 16.6667vw;
+        margin-right: 16.6667vw;
     }
     .container article #news .new {
-        margin-left: 14.3519vw;
-        width: 17.9398vw;
+        border: 0;
+        margin-left: 0;
     }
-    .container article #news .new2, .container article #news .new3 {
-        margin-left: 8.7vw;
+    .container article #news .new2 {
+        margin-left: 5.0521vw;
+    }
+    .container article #news .new3 {
+        margin-left: 5.0521vw;
     }
     .container article #news .new p {
         font-size: 16px;
@@ -164,9 +205,14 @@
     }
     .container article #news .new span {
         font-size: 22px;
+        margin-right: 0;
     }
     .container article #channel .chan-top {
-        margin: 8.5417vw 0 3.9583vw 14.3519vw;
+        margin: 6.4063vw 0 2.9688vw;
+    }
+    .container article #channel {
+        margin-left: 16.6667vw;
+        margin-right: 16.6667vw;
     }
     .container article #channel .chanbox {
         display: flex;
@@ -174,18 +220,16 @@
     }
     .container article #channel .chan1 {
         width: 20.8333vw;
-        left: 0;
-        margin-left: 14.3519vw;
-        transform: none;
         position: sticky;
     }
     .container article #channel .chan1 img {
+        width: 20.8333vw;
         height: 13.9063vw;
     }
     .container article #channel .chan2 {
         width: 20.8333vw;
         position: sticky;
-        margin-left: 4.0323vw;
+        margin-left: 2.0833vw;
     }
     .container article #channel .chan2 img {
         width: 20.8333vw;
@@ -194,25 +238,29 @@
     .container article #channel .chan3 {
         width: 20.8333vw;
         position: sticky;
-        margin-left: 4.0323vw;
+        margin-left: 2.0833vw;
     }
     .container article #channel .chan3 img {
         width: 20.8333vw;
         height: 11.8750vw;
     }
     .container article #channel .chan p {
-        top: 95%;
+        width: 20.8333vw;
+        position: sticky;
+        margin-top: 24px;
     }
     /* 갤러리 영역 */
     .container #gallery {
         position: relative;
     }
     .container .gallery-logo {
-        margin-top: 20.8333vw;;
+        margin-top: 15.6250vw;
     }
     .container .gallery-logo h2 {
         width: 50vw; height: 59.3229vw;
         line-height: 9.0323vw;
+        font-size: 42px;
+        letter-spacing: -0.05em;
     }
     .container .gallery-logo p {
         position: absolute;
@@ -228,12 +276,12 @@
     .container figure h2 {
         font-size: 32px;
         margin-top: 5.2083vw;
-        margin-left: 2.6042vw;
+        margin-left: 2.5521vw;
     }
     .container figure p {
         font-size: 16px;
         margin-top: 3.3854vw;
-        margin-left: 2.6042vw;
+        margin-left: 2.5521vw;
     }
     .container figure .gallery1 {
         width: 19.5313vw;
@@ -306,6 +354,7 @@
     }
     .container #cf a h3 {
         font-size: 16px;
+        width: auto;
     }
     .container #cf .cf {
         width: calc(100% - 17.7083vw);
@@ -330,7 +379,9 @@
         display: flex;
     }
     .container #cf .line {
-        padding-top: 10vw;
+        padding-top: 0;
+        margin-top: 70px;
+        margin-bottom: 150px;
         width: calc(100% - 17.7083vw);
     }
     /* footer 영역 */
@@ -343,21 +394,21 @@
         margin: 44px 0  0 4.0323vw;
     }
     .container footer #gnb2 li:nth-child(1) a {
-        left: 25.3226vw;
-        top: 44px;
+        left: 314px;
+        top: 50px;
     }
     .container footer #gnb2 li:nth-child(2) a {
-        left: 38.6290vw;
-        top: 44px;
+        left: 479px;
+        top: 50px;
     }
     .container footer #gnb2 li:nth-child(3) a {
-        left: 47.4194vw;
-        top: 44px;
-        font-size: 14px;
+        left: 588px;
+        top: 50px;
     }
     .container footer p {
-        margin-left: 25.3226vw;
+        margin-left: 314px;
         margin-top: 26px;
+        margin-bottom: 44px;
         width: 300px;
     }
     .container footer address p {
@@ -367,6 +418,7 @@
     }
     .container footer address p:first-child {
         margin-top: 53px;
+        margin-bottom: 26px;
     }
     .container footer span {
         right: 50px;

@@ -1,16 +1,25 @@
 @charset "UTF-8";
 body {
     font-family: 'Noto Sans KR', '맑은 고딕', '돋움체', sans-serif;
-    overflow-x: hidden;
     width: 100%;
+    overflow-x: hidden;
 }
 .container header {
     position: relative;
 }
 /* 비디오 영역 */
-.container header video {
-    max-width: 100%;
+.container header .bg {
+    position: relative;
+    padding-top: 547px;
+    overflow: hidden;
     margin-top: 58px;
+}
+.container header video {
+    max-width: 300%;
+    height: auto;
+    max-height: 819px;
+    position: absolute;
+    left: 0%; top: 0%;
 }
 /* 메뉴 영역 */
 .container nav {
@@ -36,7 +45,7 @@ body {
     z-index: 999;
 }
 .container nav #gnb {
-    width: 100%;
+    width: 100vw;
     height: 58px;
     position: absolute;
     top: 0;
@@ -45,7 +54,7 @@ body {
     font-size: 18px;
     height: 30px;
     background-color: #003366;
-    padding: 20px;
+    padding: 5.1282vw;
     border-bottom: 0;
     align-items: center;
     justify-content: right;
@@ -61,7 +70,7 @@ body {
 .container nav #gnb.box li {
     font-size: 16px;
     background-color: #003366;
-    padding: 5px 10px;
+    padding: 1.2821vw 2.5641vw;
     border-bottom: 0;
     display: flex;
     align-items: center;
@@ -82,6 +91,7 @@ body {
     font-size: 20px;
     font-weight: 400;
     margin-left: 35px;
+    line-height: 32px;
 }
 .container main aside .table span a {
     display: block;
@@ -93,8 +103,9 @@ body {
     margin: 45px 0 124px 35px;
 }
 .container main aside .table img {
-    width: 91.0256vw;
-    height: 334px;
+    width: calc(100vw - 35px);
+    height: 85.6410vw;
+    max-height: 540px;
     margin-left: 35px;
 }
 .container main aside .table span {
@@ -109,9 +120,10 @@ body {
     margin-right: 112px;
 }
 .container main aside .table2 img {
-    width: 91.0256vw;
-    height: 220px;
+    width: calc(100vw - 35px - 2.3611vw);
+    height: 56.4103vw;
     margin: 0;
+    margin-right: 35px;
 }
 .container main aside .table2 h1 {
     text-align: right;
@@ -130,34 +142,35 @@ body {
     margin-bottom: 114px;
 }
 .container main aside .table3 {
-    width: 100vw;
+    width: 100%;
     background: url(./images/aside3.png) no-repeat 50% / cover;
     text-align: center;
     color: #fff;
     margin: 0 auto 10.3154vw;
 }
 .container main aside .table3 img {
-    width: 191px; height: 30px;
+    width: 191px;
+    height: 30px;
     margin: 54px auto 19px;
 }
 .container main aside .table3 h1 {
     font-size: 20px;
     font-weight: 300;
     margin-bottom: 23px;
-    letter-spacing: 5px;
+    letter-spacing: 0.2em;
 }
 .container main aside .table3 p {
     width: 86.9154vw;
     font-size: 16px;
     font-weight: 300;
-    line-height: 20px;
+    line-height: 24px;
     margin: 0 auto;
-    margin-bottom: 54px;
-    letter-spacing: -0.05rem;
+    margin-bottom: 40px;
+    letter-spacing: -0.05em;
 }
 .container main aside .table3 span a {
     width: 200px;
-    margin: 3.9352vw auto;
+    margin: 25px auto;
     font-size: 20px;
     font-weight: 500;
     color: #fff;
@@ -173,12 +186,13 @@ body {
     width: 25px; height: 16px;
 }
 .container main aside .table3 div {
-    width: 295.77px;
+    width: 80%;
     font-weight: 300;
     opacity: .4;
-    padding: 25px 20px 54px;
-    margin: 0 auto;
-    margin-top: 38px;
+    margin: auto;
+    padding-bottom: 54px;
+    line-height: 28px;
+    letter-spacing: -0.05em;
 }
 /* 뉴스 & 채널 영역 */
 .container article h1 {
@@ -186,6 +200,7 @@ body {
     font-weight: bold;
     margin-bottom: 21px;
     margin-top: 58px;
+    letter-spacing: -0.05em;
 }
 .container article p a {
     font-family: 'fira-sans';
@@ -194,6 +209,7 @@ body {
     position: absolute;
     right: 35px;
     margin-top: 56px;
+    letter-spacing: 0.2em;
 }
 .container article #news .new-top {
     display: flex;
@@ -212,6 +228,7 @@ body {
     margin-top: 30px;
     margin-bottom: 27px;
     position: inherit;
+    letter-spacing: -0.05em;
 }
 .container article #news .new span {
     display: block;
@@ -219,6 +236,7 @@ body {
     font-size: 18px;
     font-weight: 400;
     margin-right: 143px;
+    line-height: 29.333333333333332px;
 }
 .container article #channel .chan-top {
     margin-top: 56px;
@@ -241,31 +259,34 @@ body {
 .container article #channel .chan2 {
     width: 300px; height: 160px;
     position: absolute;
-    left: 365px;
+    left: 440px;
 }
 .container article #channel .chan2 img {
     width: 300px; height: 160px;
 }
 .container article #channel .chan2 p {
-    width: 350px;
+    width: 300px;
     font-size: 18px;
     font-weight: 500;
     position: absolute;
     top: 105%;
     color: #000;
+    line-height: 24px;
 }
 .container article #channel .chan3 {
     width: 300px; height: 160px;
     position: absolute;
-    right: -100%;
+    left: 830px;
+}
+.container article #channel .chan3 img {
+    width: 300px; height: 160px;
 }
 .container article #channel .chan3 p {
-    width: 350px;
+    width: 300px;
     font-size: 18px;
     font-weight: 500;
-    position: absolute;
-    top: 105%;
     color: #000;
+    line-height: 24px;
 }
 /* 갤러리 영역 */
 .container .gallery-logo {
@@ -311,7 +332,8 @@ body {
     margin-left: 35px;
     margin-bottom: 60px;
     width: 149px;
-    line-height: 20px;
+    line-height: 24px;
+    letter-spacing: -0.05em;
 }
 .container figure a {
     width: 100%; height: 100%;
@@ -354,33 +376,29 @@ body {
     font-size: 23px;
     font-weight: bold;
     margin: 56px 35px 30px;
+    letter-spacing: -0.05em;
 }
 .container #cf a h3 {
     width: 124px;
     color: #000;
     font-size: 18px;
     font-weight: 500;
-    line-height: 22px;
+    line-height: 24px;
+    letter-spacing: -0.05em;
+    margin-bottom: 30px;
 }
 .container #cf a img {
-    width: 150px; height: 93px;
+    width: 38.4615vw; height: 23.8462vw;
+    max-width: 224px;
+    max-height: 150px;
     margin-bottom: 20px;
 }
-.container #cf .cf1 {
-    position: absolute;
-    left: 35px;
-}
-.container #cf .cf2 {
-    position: absolute;
-    right: 35px;
-}
-.container #cf .cf3 {
-    position: absolute;
-    left : 35px; top: 283px;
-}
-.container #cf .cf4 {
-    position: absolute;
-    right: 35px; top: 283px;
+.container #cf .cf {
+    margin-left: 35px;
+    margin-right: 35px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 .container #cf .cf5 {
     display: none;
@@ -389,18 +407,18 @@ body {
     width: calc(100% - 70px);
     margin: 0 auto;
     border-bottom: 3px solid #000;
-    padding-top: 454px;
+    margin-top: 75px;
     margin-bottom: 57px;
 }
 /* footer 영역 */
 .container footer {
-    width: 100%; height: 250px;
+    width: 100%;
     background-color: #202020;
     position: relative;
 }
 .container footer a img {
     width: 140px; height: 25px;
-    margin: 30px 35px;
+    margin: 30px 35px 22px;
 }
 .container footer #gnb2 li a {
     color: #666;
@@ -414,24 +432,26 @@ body {
     top: 35px;
 }
 .container footer #gnb2 li:nth-child(2) a {
-    top: 67px;
+    top: 69px;
 }
 .container footer #gnb2 li:nth-child(3) a {
-    top: 97px;
+    top: 103px;
 }
 .container footer p {
-    width: 113px;
     color: #666;
     margin-left: 35px;
     margin-top: 25px;
+    margin-right: 213px;
     font-size: 14px;
-    margin-bottom: 30px;
+    padding-bottom: 30px;
+    line-height: 24px;
 }
 .container footer address p {
-    width: 165px;
     margin-top: 0;
     margin-bottom: 0;
-    line-height: 20px;
+    margin-right: 159px;
+    font-weight: 500;
+    padding: 0;
 }
 .container footer span {
     background-color: #fff;
