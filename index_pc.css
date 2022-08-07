@@ -45,11 +45,16 @@
         margin-bottom: 104px;
         text-align: center;
     }
+    .container header #arrow {
+        height: 139px;
+    }
 
     /* main project 로고 */
     .container main #projects_logo {
         display: flex;
         justify-content: space-between;
+        min-width: 160px;
+        min-height: 40px;
         align-items: center;
     }
     .container main #projects_logo img {
@@ -79,6 +84,7 @@
     .container main .project a {
         display: flex;
         justify-content: space-between;
+        height: auto;
     }
     .container main .project h2 {
         font-size: 28px;

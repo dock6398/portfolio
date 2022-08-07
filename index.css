@@ -4,15 +4,15 @@ body {
     font-family: 'DM Sans', 'Noto Sans Kr', '맑은 고딕', '돋움체', sans-serif;
     font-weight: 400;
     background-color: #d7a794;
-
 }
 /* nav 영역 */
 .container nav {
     display: flex;
+    width: 100%;
 }
 .container nav #logo {
-    font-size: 48px;
-    padding: 24px 59px;
+    font-size: 24px;
+    padding: 12px 30px;
     letter-spacing: -0.07em;
 }
 /* 메뉴창 영역 */
@@ -27,7 +27,6 @@ body {
     display: block;
     font-size: 16px;
     font-family: 'Arial';
-    display: block;
     color: #000;
     margin-left: 4.4271vw;
     letter-spacing: -0.075em;
@@ -39,18 +38,21 @@ body {
 .container header #looptext {
     /* 글자 나왔다가 지워졌다가 반복 효과 줘야함 */
     font-family: 'airal';
-    font-size: 52px;
+    font-size: 26px;
     font-weight: bold;
     text-align: center;
     margin: 0 auto;
-    margin-top: 55px;
+    margin-top: 28px;
     width: 70vw;
-    height: 400px;
+    height: 200px;
 }
 .container header #arrow {
     /* 화살표 위아래로 움직이는 효과 줘야함 */
-    margin-bottom: 104px;
+    margin-bottom: 52px;
     text-align: center;
+}
+.container header #arrow img {
+    height: 70px;
 }
 
 /* main project 로고 */
@@ -61,8 +63,8 @@ body {
 }
 .container main #projects_logo img {
     width: 14.3229vw; height: 3.8542vw;
-    min-width: 150px;
-    min-height: 40px;
+    min-width: 120px;
+    height: 30px;
     margin-left: 2.9688vw;
 }
 .container main #projects_logo span a {
@@ -75,10 +77,9 @@ body {
     color: #fff;
 }
 .container main .project {
-    width: calc(100vw - 117px);
-    margin-left: 3.1771vw;
-    margin-right: 2.9167vw;
-    margin-top: 95px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 25px;
     border-bottom: 1px solid #000;
     position: relative;
     cursor: pointer;
@@ -86,38 +87,39 @@ body {
 .container main .project a {
     display: flex;
     justify-content: space-between;
+    height: 50px;
 }
 .container main .project h2 {
-    font-size: 28px;
+    font-size: 20px;
     letter-spacing: 0.06em;
     color: #000;
 }
 .container main #project2, .container main #project3, .container main #project4 {
-    margin-top: 60px;
+    margin-top: 30px;
 }
 .container main .project span {
     position: absolute;
-    top: 39px;
+    top: 25px;
     color: #000;
 }
 .container main .project p {
-    font-size: 58px;
+    font-size: 29px;
     color: #000;
 }
 /* main 스킬 부분 */
 .container main aside {
     width: 100%;
-    margin-top: 150px;
+    margin-top: 75px;
 }
 .container main #skills_logo {
-    font-size: 42px;
+    font-size: 24px;
     letter-spacing: -0.1em;
     margin-left: 2.9688vw;
 }
 .container main #skills {
     width: 100%;
     display: flex;
-    margin-top: 93px;
+    margin-top: 47px;
     flex-wrap: wrap;
     justify-content: space-between;
 }
@@ -126,30 +128,31 @@ body {
     flex-flow: column;
     flex-basis: auto;
     border-bottom: 1px solid #000;
-    width: 45.2604vw;
-    height: 341px;
+    width: 90vw;
+    height: 280px;
     margin-left: 3.2292vw;
+    margin-top: 20px;
 }
 .container main #skills .skill h2 {
-    font-size: 28px;
+    font-size: 20px;
     letter-spacing: 0.06em;
 }
 .container main #skills .skill span {
     letter-spacing: 0.12em;
-    margin-top: 30px;
+    margin-top: 15px;
 }
 .container main #skills .skill span:first-child {
-    margin-top: 50px;
+    margin-top: 25px;
 }
 .container main #skills #skill2 {
-    margin-left: 0;
     margin-right: 3.1771vw;
 }
 .container main #skills #skill3 {
-    margin-top: 60px;
+    margin-top: 30px;
 }
 .container main #skills #skill4 {
-    margin: 60px 3.1771vw 137px 0;
+    margin-top: 30px;
+    margin-left: 3.2292vw;
 }
 /* contact 영역 */
 .container main section {
@@ -157,28 +160,28 @@ body {
     flex-flow: column;
 }
 .container main #contact {
-    font-size: 28px;
+    font-size: 22px;
     margin-left: 3.2292vw;
-    margin-bottom: 52px;
+    margin-bottom: 26px;
 }
 .container main section span {
     margin-left: 3.2292vw;
-    margin-bottom: 24px;
+    margin-bottom: 12px;
 }
 .container main section span:last-child {
-    margin-bottom: 39px;
+    margin-bottom: 20px;
 }
 .container main section .text {
-    margin-top: 61px;
+    margin-top: 30px;
 }
 .container main section #btn {
     margin-top: 15px;
-    margin-bottom: 206px;
+    margin-bottom: 103px;
 }
 .container main section #btn a {
-    width: 184px;
-    height: 46px;
-    line-height: 46px;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
     text-align: center;
     display: block;
     color: #fff;
@@ -193,16 +196,16 @@ body {
 .container footer {
     background-color: #000;
     width: 100%;
-    height: 640px;
+    height: 400px;
     position: relative;
 }
 .container footer #footer_logo a {
     display: block;
     color: #fff;
-    font-size: 48px;
+    font-size: 30px;
     letter-spacing: -0.07em;
     margin-left: 3.5938vw;
-    padding-top: 67px;
+    padding-top: 38px;
 }
 .container footer address {
     color: #fff;
@@ -212,21 +215,21 @@ body {
     letter-spacing: 0.02em;
 }
 .container footer address span {
-    margin-bottom: 50px;
+    margin-bottom: 25px;
 }
 .container footer address .name {
-    margin-top: 88px;
+    margin-top: 44px;
 }
 .container footer #gnb2 {
     position: absolute;
-    right: 72px; top: 186px;
+    right: 36px; top: 93px;
 }
 .container footer #gnb2 li a {
     text-align: right;
     display: block;
     color: #fff;
     letter-spacing: -0.04em;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 .container footer #gnb2 li a:hover {
     color: #d7a794;
@@ -236,5 +239,5 @@ body {
     font-size: 12px;
     letter-spacing: 0.06em;
     margin-left: 3.5938vw;
-    margin-top: 63px;
+    margin-top: 31px;
 }

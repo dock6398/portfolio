@@ -1,4 +1,4 @@
-@media screen and (min-width: 768px) and (max-width : 1239px) {
+@media screen and (min-width: 768px) {
     /* nav 로고 */
     .container nav #logo {
         font-size: 36px;
@@ -19,6 +19,7 @@
     /* project 영역 */
     .container main .project {
         margin-top: 69px;
+        width: calc(100vw - 117px);
     }
     .container main .project h2 {
         font-size: 21px;
@@ -45,6 +46,7 @@
         margin-top: 69px;
     }
     .container main #skills .skill {
+        width: 39.0625vw;
         height: 300px;
     }
     .container main #skills .skill h2 {
@@ -61,7 +63,7 @@
         margin-top: 35px;
     }
     .container main #skills #skill4 {
-        margin: 35px 3.1771vw 103px 0;
+        margin: 35px 3.1771vw 103px;
     }
     /* contact 영역 */
     .container main #contact {
