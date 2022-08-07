@@ -45,14 +45,13 @@ body {
     margin: 0 auto;
     margin-top: 55px;
     width: 70vw;
-    height: 323px;
+    height: 450px;
 }
 .container header #arrow {
     /* 화살표 위아래로 움직이는 효과 줘야함 */
     margin-bottom: 104px;
     text-align: center;
 }
-/* main 영역 */
 
 /* main project 로고 */
 .container main #projects_logo {
@@ -66,10 +65,14 @@ body {
     min-height: 40px;
     margin-left: 57px;
 }
-.container main #projects_logo span {
+.container main #projects_logo span a {
     font-family: 'arial';
+    color: #000;
     margin-right: 61px;
     letter-spacing: 0.08;
+}
+.container main #projects_logo span a:hover {
+    color: #fff;
 }
 .container main .project {
     width: calc(100vw - 117px);
@@ -78,12 +81,16 @@ body {
     margin-top: 95px;
     border-bottom: 1px solid #000;
     position: relative;
+    cursor: pointer;
+}
+.container main .project a {
     display: flex;
     justify-content: space-between;
 }
 .container main .project h2 {
     font-size: 28px;
     letter-spacing: 0.06em;
+    color: #000;
 }
 .container main #project2, .container main #project3, .container main #project4 {
     margin-top: 60px;
@@ -91,9 +98,11 @@ body {
 .container main .project span {
     position: absolute;
     top: 39px;
+    color: #000;
 }
 .container main .project p {
     font-size: 58px;
+    color: #000;
 }
 /* main 스킬 부분 */
 .container main aside {
@@ -185,7 +194,8 @@ body {
     height: 640px;
     position: relative;
 }
-.container footer #footer_logo {
+.container footer #footer_logo a {
+    display: block;
     color: #fff;
     font-size: 48px;
     letter-spacing: -0.07em;
