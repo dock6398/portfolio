@@ -2,8 +2,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const textloop = new Typewriter('#looptext', {
         loop : true,
-        deleteSpeed : 50,
-        delay : 50
+        deleteSpeed : 'natural',
+        delay : 'natural'
     });
 
     textloop.typeString('DONGJAE like to watch videos')
