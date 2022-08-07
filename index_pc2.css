@@ -1,0 +1,105 @@
+@media screen and (min-width: 768px) and (max-width : 1239px) {
+    /* nav 로고 */
+    .container nav #logo {
+        font-size: 36px;
+        padding: 18px 44px;
+    }
+    /* 글자 반복 구역 */
+    .container header #looptext {
+        font-size: 38px;
+        height: 300px;
+    }
+    /* 화살표 */
+    .container header #arrow  {
+        margin-bottom: 78px;
+    }
+    .container header #arrow img {
+        height: 97px;
+    }
+    /* project 영역 */
+    .container main .project {
+        margin-top: 69px;
+    }
+    .container main .project h2 {
+        font-size: 21px;
+    }
+    .container main #project2, .container main #project3, .container main #project4 {
+        margin-top: 45px;
+    }
+    .container main .project span {
+        position: absolute;
+        top: 29px;
+        color: #000;
+    }
+    .container main .project p {
+        font-size: 42px;
+    }
+    /* main 스킬 부분 */
+    .container main aside {
+        margin-top: 113px;
+    }
+    .container main #skills_logo {
+        font-size: 32px;
+    }
+    .container main #skills {
+        margin-top: 69px;
+    }
+    .container main #skills .skill {
+        height: 300px;
+    }
+    .container main #skills .skill h2 {
+        font-size: 21px;
+    }
+    .container main #skills .skill span {
+        width: 39.0625vw;
+        margin-top: 20px;
+    }
+    .container main #skills .skill span:first-child {
+        margin-top: 40px;
+    }
+    .container main #skills #skill3 {
+        margin-top: 35px;
+    }
+    .container main #skills #skill4 {
+        margin: 35px 3.1771vw 103px 0;
+    }
+    /* contact 영역 */
+    .container main #contact {
+        font-size: 21px;
+        margin-bottom: 38px;
+    }
+    .container main section span {
+        margin-bottom: 18px;
+    }
+    .container main section span:last-child {
+        margin-bottom: 29px;
+    }
+    .container main section .text {
+        margin-top: 46px;
+    }
+    .container main section #btn {
+        margin-top: 12px;
+        margin-bottom: 155px;
+    }
+    /* footer 영역 */
+    .container footer {
+        height: 480px;
+    }
+    .container footer #footer_logo a {
+        font-size: 36px;
+        padding-top: 51px;
+    }
+    .container footer address span {
+        margin-bottom: 34px;
+    }
+    .container footer address .name {
+        margin-top: 66px;
+    }
+    .container footer #gnb2 {
+        position: absolute;
+        right: 54px; top: 142px;
+    }
+    .container footer .reserved {
+        margin-top: 50px;
+    }
+}

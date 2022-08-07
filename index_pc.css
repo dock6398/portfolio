@@ -1,0 +1,232 @@
+@media screen and (min-width : 1240px) {
+        /* nav 영역 */
+    .container nav {
+        display: flex;
+    }
+    .container nav #logo {
+        font-size: 48px;
+        padding: 24px 59px;
+        letter-spacing: -0.07em;
+    }
+    /* 메뉴창 영역 */
+    .container nav #gnb {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: right;
+        padding-right : 3.0729vw;;
+    }
+    .container nav #gnb li a {
+        display: block;
+        font-size: 16px;
+        font-family: 'Arial';
+        display: block;
+        color: #000;
+        margin-left: 4.4271vw;
+        letter-spacing: -0.075em;
+    }
+    .container nav #gnb li a:hover {
+        color: #fff;
+    }
+    /* header 영역 */
+    .container header #looptext {
+        /* 글자 나왔다가 지워졌다가 반복 효과 줘야함 */
+        font-family: 'airal';
+        font-size: 52px;
+        font-weight: bold;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 55px;
+        width: 70vw;
+        height: 450px;
+    }
+    .container header #arrow {
+        /* 화살표 위아래로 움직이는 효과 줘야함 */
+        margin-bottom: 104px;
+        text-align: center;
+    }
+
+    /* main project 로고 */
+    .container main #projects_logo {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .container main #projects_logo img {
+        width: 14.3229vw; height: 3.8542vw;
+        min-width: 150px;
+        min-height: 40px;
+        margin-left: 57px;
+    }
+    .container main #projects_logo span a {
+        font-family: 'arial';
+        color: #000;
+        margin-right: 61px;
+        letter-spacing: 0.08;
+    }
+    .container main #projects_logo span a:hover {
+        color: #fff;
+    }
+    .container main .project {
+        width: calc(100vw - 117px);
+        margin-left: 61px;
+        margin-right: 56px;
+        margin-top: 95px;
+        border-bottom: 1px solid #000;
+        position: relative;
+        cursor: pointer;
+    }
+    .container main .project a {
+        display: flex;
+        justify-content: space-between;
+    }
+    .container main .project h2 {
+        font-size: 28px;
+        letter-spacing: 0.06em;
+        color: #000;
+    }
+    .container main #project2, .container main #project3, .container main #project4 {
+        margin-top: 60px;
+    }
+    .container main .project span {
+        position: absolute;
+        top: 39px;
+        color: #000;
+    }
+    .container main .project p {
+        font-size: 58px;
+        color: #000;
+    }
+    /* main 스킬 부분 */
+    .container main aside {
+        width: 100%;
+        margin-top: 150px;
+    }
+    .container main #skills_logo {
+        font-size: 42px;
+        letter-spacing: -0.1em;
+        margin-left: 2.9688vw;
+    }
+    .container main #skills {
+        width: 100%;
+        display: flex;
+        margin-top: 93px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .container main #skills .skill {
+        display: flex;
+        flex-flow: column;
+        flex-basis: auto;
+        border-bottom: 1px solid #000;
+        width: 45.2604vw;
+        height: 341px;
+        margin-left: 3.2292vw;
+    }
+    .container main #skills .skill h2 {
+        font-size: 28px;
+        letter-spacing: 0.06em;
+    }
+    .container main #skills .skill span {
+        letter-spacing: 0.12em;
+        margin-top: 30px;
+    }
+    .container main #skills .skill span:first-child {
+        margin-top: 50px;
+    }
+    .container main #skills #skill2 {
+        margin-left: 0;
+        margin-right: 3.1771vw;
+    }
+    .container main #skills #skill3 {
+        margin-top: 60px;
+    }
+    .container main #skills #skill4 {
+        margin: 60px 3.1771vw 137px 0;
+    }
+    .container main section {
+        display: flex;
+        flex-flow: column;
+    }
+    .container main #contact {
+        font-size: 28px;
+        margin-left: 3.2292vw;
+        margin-bottom: 52px;
+    }
+    .container main section span {
+        margin-left: 3.2292vw;
+        margin-bottom: 24px;
+    }
+    .container main section span:last-child {
+        margin-bottom: 39px;
+    }
+    .container main section .text {
+        margin-top: 61px;
+    }
+    .container main section #btn {
+        margin-top: 15px;
+        margin-bottom: 206px;
+    }
+    .container main section #btn a {
+        width: 184px;
+        height: 46px;
+        line-height: 46px;
+        text-align: center;
+        display: block;
+        color: #fff;
+        background-color: #000;
+        margin-left: 3.2292vw;
+    }
+    .container main section #btn a:hover {
+        background-color: #fff;
+        color: #000;
+    }
+    .container footer {
+        background-color: #000;
+        width: 100%;
+        height: 640px;
+        position: relative;
+    }
+    .container footer #footer_logo a {
+        display: block;
+        color: #fff;
+        font-size: 48px;
+        letter-spacing: -0.07em;
+        margin-left: 3.5938vw;
+        padding-top: 67px;
+    }
+    .container footer address {
+        color: #fff;
+        display: flex;
+        flex-flow: column;
+        margin-left: 3.5938vw;
+        letter-spacing: 0.02em;
+    }
+    .container footer address span {
+        margin-bottom: 50px;
+    }
+    .container footer address .name {
+        margin-top: 88px;
+    }
+    .container footer #gnb2 {
+        position: absolute;
+        right: 72px; top: 186px;
+    }
+    .container footer #gnb2 li a {
+        text-align: right;
+        display: block;
+        color: #fff;
+        letter-spacing: -0.04em;
+        margin-bottom: 40px;
+    }
+    .container footer #gnb2 li a:hover {
+        color: #d7a794;
+    }
+    .container footer .reserved {
+        color: #fff;
+        font-size: 12px;
+        letter-spacing: 0.06em;
+        margin-left: 3.5938vw;
+        margin-top: 63px;
+}
+}
