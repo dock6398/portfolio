@@ -33,7 +33,7 @@ body {
 .container nav #gnb li a {
     display: block;
     font-size: 16px;
-    font-family: 'Arial';
+    font-family: 'Pretendard';
     color: #000;
     margin-left: 4.4271vw;
     letter-spacing: -0.075em;
@@ -90,6 +90,7 @@ body {
     cursor: pointer;
 }
 .container main .project a {
+    font-family: 'Pretendard';
     display: flex;
     justify-content: space-between;
     height: 50px;
@@ -190,7 +191,6 @@ body {
     display: block;
     color: #fff;
     background-color: #000;
-    margin-left: 61px;
 }
 .container main section #btn a:hover {
     background-color: #fff;
@@ -227,16 +227,18 @@ body {
     letter-spacing: 0.02em;
 }
 .container footer address .name {
+    font-size: 28px;
     margin-bottom: 10px;
 }
 .container footer address .old {
     margin-bottom: 40px;
 }
 .container footer address .num {
+    font-size: 20px;
     margin-bottom: 10px;
 }
 .container footer address .email {
-    font-size: 22px;
+    font-size: 28px;
     margin-bottom: 25px;
 }
 .container footer .reserved {
@@ -244,5 +246,5 @@ body {
     font-size: 12px;
     letter-spacing: 0.06em;
     margin-left: 61px;
-    margin-top: 31px;
+    margin-top: 51px;
 }

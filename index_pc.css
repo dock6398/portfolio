@@ -200,16 +200,8 @@
     .container footer address .name {
         margin-top: 88px;
     }
-    .container footer #gnb2 {
-        position: absolute;
-        right: 72px; top: 186px;
-    }
-    .container footer #gnb2 li a {
-        text-align: right;
-        display: block;
-        color: #fff;
-        letter-spacing: -0.04em;
-        margin-bottom: 40px;
+    .container footer address .email {
+        font-size: 36px;
     }
     .container footer #gnb2 li a:hover {
         color: #d7a794;

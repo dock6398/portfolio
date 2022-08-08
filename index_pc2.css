@@ -113,6 +113,9 @@
     .container footer address .name {
         margin-top: 66px;
     }
+    .container footer address .email {
+        font-size: 36px;
+    }
     .container footer #gnb2 {
         position: absolute;
         right: 54px; top: 142px;
