@@ -1,0 +1,514 @@
+@charset "UTF-8";
+html {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+body {
+    font-family: 'Noto Sans KR', '맑은 고딕', '돋움체', sans-serif;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.container header {
+    position: relative;
+}
+/* 비디오 영역 */
+.container header .bg {
+    position: relative;
+    padding-top: 547px;
+    overflow: hidden;
+    margin-top: 58px;
+}
+.container header video {
+    max-width: 300%;
+    height: auto;
+    max-height: 819px;
+    position: absolute;
+    left: 0%; top: 0%;
+}
+/* 메뉴 영역 */
+.container nav {
+    width: 100vw; height: 58px;
+    background-color: #003366;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+}
+.container nav #navlogo { 
+    width: 130px;
+    margin-left: 20px;
+    position: absolute;
+    top: 18px;
+    z-index: 999;
+}
+.container nav #navlogo img {
+    width: 130px; height: 20px;
+}
+.container nav #menu {
+    position: absolute;
+    top: 4px; right: 20px;
+    z-index: 999;
+}
+.container nav #gnb {
+    width: 100vw;
+    height: 58px;
+    position: absolute;
+    top: 0;
+}
+.container nav #gnb li {
+    font-size: 18px;
+    height: 30px;
+    background-color: #003366;
+    padding: 5.1282vw;
+    border-bottom: 0;
+    align-items: center;
+    justify-content: right;
+    border-top: 1px solid #fff;
+    display: none;
+}
+.container nav #gnb li:first-child {
+    margin-top: 58px;
+}
+.container nav #gnb li:last-child a img {
+    width: 25px; height: 25px;
+}
+.container nav #gnb.box li {
+    font-size: 16px;
+    background-color: #003366;
+    padding: 1.2821vw 2.5641vw;
+    border-bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    border-top: 1px solid #fff;
+}
+.container nav #gnb.box li:hover {
+    background-color: #000;
+    cursor: pointer;
+    border: 0;
+}
+.container nav #gnb li a {
+    color: #fff;
+}
+/* main 영역 */
+.container main aside .table h1 {
+    font-size: 29px;
+    font-family: 'fira-sans', 'Noto Sans KR';
+    font-weight: bold;
+    margin: 99px 0 25px 35px;
+    letter-spacing: -0.05em;
+}
+.container main aside .table p {
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 35px;
+    line-height: 32px;
+    letter-spacing: -0.05em;
+}
+.container main aside .table span a {
+    display: block;
+    text-align: center;
+    width: 150px;
+    color: #000;
+    padding: 20px 0;
+    border: 1px solid #000;
+    margin: 45px 0 124px 35px;
+}
+.container main aside .table img {
+    width: calc(100vw - 35px);
+    height: 85.6410vw;
+    max-height: 540px;
+    margin-left: 35px;
+}
+.container main aside .table span {
+    display: flex;
+    justify-content: right;
+    margin-right: 35px;
+}
+.container main aside .table span a{
+    letter-spacing: -0.05em;
+}
+.container main aside .table1 span {
+    justify-content: left;
+}
+.container main aside .table1 p {
+    margin-right: 112px;
+}
+.container main aside .table1 span a:hover {
+    background-color: #003366;
+    color: #fff;
+    cursor: pointer;
+    border: 0;        
+}
+.container main aside .table2 img {
+    width: calc(100% - 35px);
+    height: 56.4103vw;
+    margin: 0;
+    margin-right: 35px;
+}
+.container main aside .table2 h1 {
+    text-align: right;
+    margin-top: 111px;
+    margin-bottom: 22px;
+    margin-right: 35px;
+}
+.container main aside .table2 p {
+    width: auto;
+    text-align: right;
+    margin-left: 161px;
+    margin-right: 35px;
+}
+.container main aside .table2 span a {
+    margin-top: 44px;
+    margin-bottom: 114px;
+}
+.container main aside .table2 span a:hover {
+    background-color: #003366;
+    color: #fff;
+    cursor: pointer;
+    border: 0;
+}
+.container main aside .table3 {
+    width: 100%;
+    max-width: 1000px;
+    background: url(./images/aside3.png) no-repeat 50% / cover;
+    text-align: center;
+    color: #fff;
+    margin: 0 auto 10.3154vw;
+}
+.container main aside .table3 img {
+    width: 191px;
+    height: 30px;
+    margin: 54px auto 19px;
+}
+.container main aside .table3 h1 {
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 23px;
+    letter-spacing: 0.2em;
+}
+.container main aside .table3 p {
+    width: 80%;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    letter-spacing: -0.05em;
+}
+.container main aside .table3 span a {
+    width: 200px;
+    margin: 25px auto;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: -0.05em;
+    color: #fff;
+    border: 1px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 13px 15px 13px 26px;
+}
+.container main aside .table3 span a:hover {
+    background-color: #003366;
+    color: #fff;
+    cursor: pointer;
+    border: 0;
+}
+.container main aside .table3 span img {
+    margin: 0;
+    margin-left: 15px;
+    width: 25px; height: 16px;
+}
+.container main aside .table3 div {
+    width: 80%;
+    font-weight: 300;
+    opacity: .4;
+    margin: auto;
+    padding-bottom: 54px;
+    line-height: 28px;
+    letter-spacing: -0.05em;
+}
+/* 뉴스 & 채널 영역 */
+.container article h1 {
+    font-size: 23px;
+    font-weight: bold;
+    margin-bottom: 21px;
+    margin-top: 58px;
+    letter-spacing: -0.05em;
+}
+.container article p a {
+    font-family: 'fira-sans';
+    font-weight: bold;
+    color: #000;
+    position: absolute;
+    right: 35px;
+    margin-top: 56px;
+    letter-spacing: 0.2em;
+}
+.container article #news .new-top {
+    display: flex;
+    margin-left: 35px;
+    border-bottom: 2px solid #000;
+}
+.container article #news .new {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #777;
+    margin-left: 35px;
+}
+.container article #news .new p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #777;
+    margin-top: 30px;
+    margin-bottom: 27px;
+    position: inherit;
+    letter-spacing: -0.05em;
+}
+.container article #news .new span {
+    display: block;
+    line-height: 26px;
+    font-size: 18px;
+    font-weight: 400;
+    margin-right: 143px;
+    line-height: 29.333333333333332px;
+}
+.container article #channel .chan-top {
+    margin-top: 56px;
+    margin-left: 35px;
+    display: flex;
+    margin-bottom: 21px;
+}
+.container article #channel .chanbox {
+    position: relative;
+}
+.container article #channel .chan1 {
+    width: 300px; height: 190px;
+    max-width: 500px;
+    position: absolute;
+    left: 35px;
+}
+.container article #channel .chan1 img {
+    width: 300px; height: 190px;
+}
+.container article #channel .chan2 {
+    width: 300px; height: 160px;
+    position: absolute;
+    left: 440px;
+}
+.container article #channel .chan2 img {
+    width: 300px; height: 160px;
+}
+.container article #channel .chan2 p {
+    width: 300px;
+    font-size: 18px;
+    font-weight: 500;
+    position: absolute;
+    top: 105%;
+    color: #000;
+    line-height: 24px;
+}
+.container article #channel .chan3 {
+    width: 300px; height: 160px;
+    position: absolute;
+    left: 830px;
+}
+.container article #channel .chan3 img {
+    width: 300px; height: 160px;
+}
+.container article #channel .chan3 p {
+    width: 300px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #000;
+    line-height: 24px;
+}
+/* 갤러리 영역 */
+.container .gallery-logo {
+    width: 100%;
+    margin-top: 260px;
+}
+.container .gallery-logo h2 {
+    background-color: #0033cc;
+    height: 112px;
+    color: #fff;
+    font-size: 27px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 112px;
+    letter-spacing: -0.05em;
+}
+.container .gallery-logo p {
+    height: 120px;
+}
+.container .gallery-logo p a {
+    line-height: 121px;
+    margin-left: 34px;
+    color: #000;
+    border: 1px solid #000;
+    padding: 12px 24px;
+    font-family: 'fira-sans';
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: -0.05em;
+}
+.container .gallery-logo p a:hover {
+    background-color: #003366;
+    color: #fff;
+    cursor: pointer;
+    border: 0;
+}
+.container figure {
+    margin: 0 auto;
+    max-width: 700px;
+    color: #fff;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
+.container figure h2 {
+    font-size: 23px;
+    font-weight: bold;
+    margin: 60px 0 30px 35px;
+}
+.container figure p {
+    font-weight: 500;
+    margin-left: 35px;
+    margin-bottom: 15.3846vw;
+    margin-right: 38px;
+    line-height: 24px;
+    letter-spacing: -0.05em;
+}
+.container figure a {
+    width: 100%; height: 100%;
+    color: #fff;
+    font-size: 23px;
+    font-weight: bold;
+    opacity: 0;
+    transition: .4s;
+    display: grid;
+    place-items: center;
+}
+.container figure .gallery {
+    background-color: #003366;
+    max-width: 350px;
+    max-height: 349px;
+}
+.container figure .gallery1 {
+    background: url(./images/gallery1.png) no-repeat 50% 50% / cover;
+}
+.container figure .gallery4 {
+    background: url(./images/gallery4.png) no-repeat 50% 50% / cover;
+}
+.container figure .gallery5 {
+    background: url(./images/gallery5.png) no-repeat 50% 50% / cover;
+}
+.container figure .gallery7 {
+    background: url(./images/gallery7.png) no-repeat 50% 50% / cover;
+}
+.container figure .gallery8 {
+    background: url(./images/gallery8.png) no-repeat 50% 50% / cover;
+}
+/* 광고 영역 */
+.container #cf {
+    position: relative;
+}
+.container #cf h2 {
+    font-size: 23px;
+    font-weight: bold;
+    margin: 56px 35px 30px;
+    letter-spacing: -0.05em;
+}
+.container #cf a h3 {
+    width: 124px;
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.05em;
+    margin-bottom: 30px;
+}
+.container #cf a img {
+    width: 38.4615vw; height: 23.8462vw;
+    max-width: 224px;
+    max-height: 150px;
+    margin-bottom: 20px;
+}
+.container #cf .cf {
+    margin-left: 35px;
+    margin-right: 35px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.container #cf .cf5 {
+    display: none;
+}
+.container #cf .line {
+    width: calc(100% - 70px);
+    margin: 0 auto;
+    border-bottom: 3px solid #000;
+    margin-top: 75px;
+    margin-bottom: 57px;
+}
+/* footer 영역 */
+.container footer {
+    width: 100%;
+    background-color: #202020;
+    position: relative;
+}
+.container footer a img {
+    width: 140px; height: 25px;
+    margin: 30px 35px 22px;
+}
+.container footer #gnb2 li a {
+    color: #666;
+    font-size: 14px;
+    font-weight: 500;
+    position: absolute;
+    right: 35px;
+}
+.container footer #gnb2 li:first-child a {
+    color: #fff;
+    top: 35px;
+}
+.container footer #gnb2 li:nth-child(2) a {
+    top: 69px;
+}
+.container footer #gnb2 li:nth-child(3) a {
+    top: 103px;
+}
+.container footer p {
+    color: #666;
+    margin-left: 35px;
+    margin-top: 25px;
+    margin-right: 213px;
+    font-size: 14px;
+    padding-bottom: 30px;
+    line-height: 24px;
+}
+.container footer address p {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 159px;
+    font-weight: 500;
+    padding: 0;
+}
+.container footer .poto {
+    color: #000;
+    font-weight: bold;
+    display: block;
+    width: 100%;
+}
+.container footer span {
+    background-color: #fff;
+    padding: 11px 5px;
+    position: absolute;
+    bottom: 30px; right: 35px;
+    font-weight: 500;
+}
+.container footer .poto span:hover {
+    background-color: #003366;
+    color: #fff;
+    cursor: pointer;
+    border: 0;
+}
