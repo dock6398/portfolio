@@ -78,25 +78,22 @@
     .container main #contact {
         font-size: 21px;
         margin-bottom: 38px;
-        margin-left: 61px;
     }
     .container main section span {
         margin-bottom: 18px;
-        margin-left: 61px;
     }
     .container main section span:last-child {
         margin-bottom: 29px;
     }
     .container main section .text {
         margin-top: 46px;
-        margin-left: 61px;
     }
     .container main section #btn {
         margin-top: 12px;
         margin-bottom: 155px;
     }
     .container main section #btn a {
-        margin-left: 61px;
+        margin: 0;
     }
     /* footer 영역 */
     .container footer {

@@ -71,13 +71,7 @@
         transform: translateY(-50%);
     }
     .container nav #gnb li:nth-child(8) {
-        width: 65px;
-        position: absolute;
-        right: 0;
-        padding-right: 35px;
-        top: 50%;
-        transform: translateY(-50%);
-        line-height: 0;
+        display: none;
     }
     .container nav #gnb li a {
         display: block;

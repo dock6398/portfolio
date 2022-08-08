@@ -14,7 +14,10 @@ body {
 .container nav #logo {
     font-size: 30px;
     padding: 12px 30px;
-    letter-spacing: -0.07em;
+    transition: 0.5s;
+}
+.container nav #logo:hover {
+    transform: translateY(10px);
 }
 /* 메뉴창 영역 */
 .container nav #gnb {
@@ -76,7 +79,7 @@ body {
 }
 .container main .project {
     width: 80%;
-    height: 130px;
+    height: 100px;
     margin: 0 auto;
     margin-top: 25px;
     border-bottom: 1px solid #000;
@@ -96,17 +99,14 @@ body {
 .container main #project2, .container main #project3, .container main #project4 {
     margin-top: 30px;
 }
-.container main .project span {
-    position: absolute;
-    top: 60px;
-    letter-spacing: 0.08em;
-}
 .container main .project .list {
+    font-family: 'Pretendard';
     position: absolute;
-    top: 90px;
+    top: 50px;
 }
 .container main .project p {
     font-size: 29px;
+    font-family: 'Pretendard';
 }
 /* main 스킬 부분 */
 .container main aside {
@@ -129,9 +129,9 @@ body {
     flex-flow: column;
     flex-basis: auto;
     border-bottom: 1px solid #000;
-    width: 90vw;
+    width: calc(100% - 122px);
     height: 280px;
-    margin-left: 3.2292vw;
+    margin: 0 auto;
     margin-top: 20px;
 }
 .container main #skills .skill h2 {
@@ -147,30 +147,27 @@ body {
 .container main #skills .skill span:first-child {
     margin-top: 25px;
 }
-.container main #skills #skill2 {
-    margin-right: 3.1771vw;
-}
 .container main #skills #skill3 {
     margin-top: 30px;
 }
 .container main #skills #skill4 {
     margin-top: 30px;
-    margin-left: 3.2292vw;
 }
 /* contact 영역 */
 .container main section {
+    font-family: 'Pretendard';
     display: flex;
     flex-flow: column;
+    margin-left: 61px;
     margin-top: 30px;
+    margin-right: 61px;
 }
 .container main #contact {
     font-size: 22px;
-    margin-left: 3.2292vw;
     margin-bottom: 26px;
 }
 .container main section span {
-    margin-left: 3.2292vw;
-    margin-bottom: 12px;
+    margin-bottom: 15px;
 }
 .container main section span:last-child {
     margin-bottom: 20px;
@@ -190,7 +187,7 @@ body {
     display: block;
     color: #fff;
     background-color: #000;
-    margin-left: 3.2292vw;
+    margin-left: 61px;
 }
 .container main section #btn a:hover {
     background-color: #fff;
@@ -206,42 +203,43 @@ body {
 }
 .container footer #footer_logo {
     text-align: center;
-    padding: 38px 3.5938vw;
+    padding: 38px 61px;
 }
 .container footer #footer_logo a {
     width: 50px;
     display: block;
     color: #fff;
     font-size: 30px;
+    transition: 0.5s;
+}
+.container footer #footer_logo a:hover {
+    transform: translateY(-10px);
 }
 .container footer address {
     color: #fff;
     display: flex;
     flex-flow: column;
-    margin-left: 3.5938vw;
+    margin-left: 61px;
+    margin-right: 61px;
     letter-spacing: 0.02em;
 }
-.container footer address span {
+.container footer address .name {
+    margin-bottom: 10px;
+}
+.container footer address .old {
+    margin-bottom: 40px;
+}
+.container footer address .num {
+    margin-bottom: 10px;
+}
+.container footer address .email {
+    font-size: 22px;
     margin-bottom: 25px;
-}
-.container footer #gnb2 {
-    position: absolute;
-    right: 36px; top: 93px;
-}
-.container footer #gnb2 li a {
-    text-align: right;
-    display: block;
-    color: #fff;
-    letter-spacing: -0.04em;
-    margin-bottom: 20px;
-}
-.container footer #gnb2 li a:hover {
-    color: #d7a794;
 }
 .container footer .reserved {
     color: #fff;
     font-size: 12px;
     letter-spacing: 0.06em;
-    margin-left: 3.5938vw;
+    margin-left: 61px;
     margin-top: 31px;
 }

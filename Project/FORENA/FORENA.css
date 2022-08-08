@@ -58,7 +58,6 @@ body {
     font-size: 18px;
     height: 30px;
     background-color: #003366;
-    padding: 5.1282vw;
     border-bottom: 0;
     align-items: center;
     justify-content: right;
@@ -74,7 +73,7 @@ body {
 .container nav #gnb.box li {
     font-size: 16px;
     background-color: #003366;
-    padding: 1.2821vw 2.5641vw;
+    padding: 25px;
     border-bottom: 0;
     display: flex;
     align-items: center;
@@ -469,13 +468,13 @@ body {
 }
 .container footer #gnb2 li:first-child a {
     color: #fff;
-    top: 35px;
+    top: 25px;
 }
 .container footer #gnb2 li:nth-child(2) a {
-    top: 69px;
+    top: 59px;
 }
 .container footer #gnb2 li:nth-child(3) a {
-    top: 103px;
+    top: 93px;
 }
 .container footer p {
     color: #666;

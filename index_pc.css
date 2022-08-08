@@ -140,14 +140,13 @@
     .container main section {
         display: flex;
         flex-flow: column;
+        margin-left: 61px;
     }
     .container main #contact {
         font-size: 28px;
-        margin-left: 61px;
         margin-bottom: 52px;
     }
     .container main section span {
-        margin-left: 61px;
         margin-bottom: 24px;
     }
     .container main section span:last-child {
@@ -168,7 +167,6 @@
         display: block;
         color: #fff;
         background-color: #000;
-        margin-left: 61px;
     }
     .container main section #btn a:hover {
         background-color: #fff;

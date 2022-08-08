@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // 스크롤 배경색 변경 부분
     window.addEventListener('scroll', function() {
         const top = window.scrollY
-        || window.pageXOffset
+        || window.pageYOffset
         if(top > 1) {
             nav.classList.add('active');
         } else {
