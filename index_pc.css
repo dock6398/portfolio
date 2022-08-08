@@ -51,29 +51,19 @@
 
     /* main project 로고 */
     .container main #projects_logo {
-        font-size: 42px;
-        letter-spacing: -0.1em;
+        font-size: 50px;
         margin-left: 2.9688vw;
-    }
-    .container main #projects_logo img {
-        width: 14.3229vw; height: 3.8542vw;
-        min-width: 150px;
-        min-height: 40px;
-        margin-left: 57px;
     }
     .container main #projects_logo span a {
         font-family: 'arial';
         color: #000;
         margin-right: 61px;
-        letter-spacing: 0.08;
     }
     .container main #projects_logo span a:hover {
         color: #fff;
     }
     .container main .project {
-        width: calc(100vw - 117px);
-        margin-left: 61px;
-        margin-right: 56px;
+        width: calc(100vw - 122px);
         margin-top: 95px;
         border-bottom: 1px solid #000;
         position: relative;
@@ -94,7 +84,7 @@
     }
     .container main .project span {
         position: absolute;
-        top: 39px;
+        top: 60px;
         color: #000;
     }
     .container main .project p {
@@ -107,8 +97,7 @@
         margin-top: 150px;
     }
     .container main #skills_logo {
-        font-size: 42px;
-        letter-spacing: -0.1em;
+        font-size: 50px;
         margin-left: 2.9688vw;
     }
     .container main #skills {
@@ -123,9 +112,9 @@
         flex-flow: column;
         flex-basis: auto;
         border-bottom: 1px solid #000;
-        width: 45.2604vw;
+        width: 41.6667vw;
         height: 341px;
-        margin-left: 3.2292vw;
+        margin-left: 61px;
     }
     .container main #skills .skill h2 {
         font-size: 28px;
@@ -140,7 +129,7 @@
     }
     .container main #skills #skill2 {
         margin-left: 0;
-        margin-right: 3.1771vw;
+        margin-right: 61px;
     }
     .container main #skills #skill3 {
         margin-top: 60px;
@@ -154,11 +143,11 @@
     }
     .container main #contact {
         font-size: 28px;
-        margin-left: 3.2292vw;
+        margin-left: 61px;
         margin-bottom: 52px;
     }
     .container main section span {
-        margin-left: 3.2292vw;
+        margin-left: 61px;
         margin-bottom: 24px;
     }
     .container main section span:last-child {
@@ -179,7 +168,7 @@
         display: block;
         color: #fff;
         background-color: #000;
-        margin-left: 3.2292vw;
+        margin-left: 61px;
     }
     .container main section #btn a:hover {
         background-color: #fff;

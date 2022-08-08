@@ -18,21 +18,24 @@
     }
     /* project 영역 */
     .container main #projects_logo {
-        font-size: 32px;
+        font-size: 40px;
     }
     .container main .project {
         margin-top: 69px;
         width: calc(100vw - 117px);
     }
+    .container main .project a {
+        height: auto;
+    }
     .container main .project h2 {
-        font-size: 21px;
+        font-size: 24px;
     }
     .container main #project2, .container main #project3, .container main #project4 {
         margin-top: 45px;
     }
     .container main .project span {
         position: absolute;
-        top: 29px;
+        top: 50px;
         color: #000;
     }
     .container main .project p {
@@ -43,13 +46,14 @@
         margin-top: 113px;
     }
     .container main #skills_logo {
-        font-size: 32px;
+        font-size: 40px;
     }
     .container main #skills {
         margin-top: 69px;
     }
     .container main #skills .skill {
-        width: 39.0625vw;
+        margin-left: 61px;
+        margin-right: 61px;
         height: 300px;
     }
     .container main #skills .skill h2 {
@@ -66,25 +70,33 @@
         margin-top: 35px;
     }
     .container main #skills #skill4 {
-        margin: 35px 3.1771vw 103px;
+        margin-left: 61px;
+        margin-top: 35px;
+        margin-bottom: 103px;
     }
     /* contact 영역 */
     .container main #contact {
         font-size: 21px;
         margin-bottom: 38px;
+        margin-left: 61px;
     }
     .container main section span {
         margin-bottom: 18px;
+        margin-left: 61px;
     }
     .container main section span:last-child {
         margin-bottom: 29px;
     }
     .container main section .text {
         margin-top: 46px;
+        margin-left: 61px;
     }
     .container main section #btn {
         margin-top: 12px;
         margin-bottom: 155px;
+    }
+    .container main section #btn a {
+        margin-left: 61px;
     }
     /* footer 영역 */
     .container footer {

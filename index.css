@@ -11,7 +11,7 @@ body {
     width: 100%;
 }
 .container nav #logo {
-    font-size: 24px;
+    font-size: 30px;
     padding: 12px 30px;
     letter-spacing: -0.07em;
 }
@@ -61,7 +61,6 @@ body {
     justify-content: space-between;
     align-items: center;
     font-size: 24px;
-    letter-spacing: -0.1em;
     margin-left: 2.9688vw;
 }
 .container main #projects_logo span a {
@@ -69,13 +68,14 @@ body {
     color: #000;
     font-size: 16px;
     margin-right: 3.1771vw;
-    letter-spacing: 0.08;
+    letter-spacing: 0.08em;
 }
 .container main #projects_logo span a:hover {
     color: #fff;
 }
 .container main .project {
     width: 80%;
+    height: 130px;
     margin: 0 auto;
     margin-top: 25px;
     border-bottom: 1px solid #000;
@@ -86,23 +86,26 @@ body {
     display: flex;
     justify-content: space-between;
     height: 50px;
+    color: #000;
 }
 .container main .project h2 {
     font-size: 20px;
     letter-spacing: 0.06em;
-    color: #000;
 }
 .container main #project2, .container main #project3, .container main #project4 {
     margin-top: 30px;
 }
 .container main .project span {
     position: absolute;
-    top: 25px;
-    color: #000;
+    top: 60px;
+    letter-spacing: 0.08em;
+}
+.container main .project .list {
+    position: absolute;
+    top: 90px;
 }
 .container main .project p {
     font-size: 29px;
-    color: #000;
 }
 /* main 스킬 부분 */
 .container main aside {
@@ -111,7 +114,6 @@ body {
 }
 .container main #skills_logo {
     font-size: 24px;
-    letter-spacing: -0.1em;
     margin-left: 2.9688vw;
 }
 .container main #skills {
@@ -195,6 +197,7 @@ body {
 }
 /* footer 영역 */
 .container footer {
+    font-family: 'DM Sans';
     background-color: #000;
     width: 100%;
     height: 400px;
