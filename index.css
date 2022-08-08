@@ -204,13 +204,15 @@ body {
     height: 400px;
     position: relative;
 }
+.container footer #footer_logo {
+    text-align: center;
+    padding: 38px 3.5938vw;
+}
 .container footer #footer_logo a {
+    width: 50px;
     display: block;
     color: #fff;
     font-size: 30px;
-    letter-spacing: -0.07em;
-    margin-left: 3.5938vw;
-    padding-top: 38px;
 }
 .container footer address {
     color: #fff;
@@ -221,9 +223,6 @@ body {
 }
 .container footer address span {
     margin-bottom: 25px;
-}
-.container footer address .name {
-    margin-top: 44px;
 }
 .container footer #gnb2 {
     position: absolute;
