@@ -17,6 +17,9 @@
         height: 97px;
     }
     /* project 영역 */
+    .container main #projects_logo {
+        font-size: 32px;
+    }
     .container main .project {
         margin-top: 69px;
         width: calc(100vw - 117px);

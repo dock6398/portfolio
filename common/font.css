@@ -53,11 +53,20 @@
     font-weight: 400;
 }
 @font-face {
-    font-family: 'DMSans';
-    src: local('DMsans'),
-    url(fonts/DMSans-Regular.woff2),
-    url(fonts/DMSans-Regular.woff);
+    font-family: 'SourceSerif4';
+    src: local('SourceSerif4'),
+    url(fonts/SourceSerif4-Regular.woff2),
+    url(fonts/SourceSerif4-Regular.woff);
     font-style: normal;
     font-display: swap;
     font-weight: 400;
+}
+@font-face {
+    font-family: 'Pretendard';
+    src: local('Pretendard'),
+    url(fonts/Pretendard-Medium.woff2),
+    url(fonts/Pretendard-Medium.woff);
+    font-style: normal;
+    font-display: swap;
+    font-weight: 500;
 }

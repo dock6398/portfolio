@@ -51,11 +51,9 @@
 
     /* main project 로고 */
     .container main #projects_logo {
-        display: flex;
-        justify-content: space-between;
-        min-width: 160px;
-        min-height: 40px;
-        align-items: center;
+        font-size: 42px;
+        letter-spacing: -0.1em;
+        margin-left: 2.9688vw;
     }
     .container main #projects_logo img {
         width: 14.3229vw; height: 3.8542vw;
