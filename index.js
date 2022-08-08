@@ -36,10 +36,10 @@ document.addEventListener('DOMContentLoaded', () => {
         fill : 'forwards'
     })
 
-    const bg1 = document.querySelector('#project1 h2')
-    const bg2 = document.querySelector('#project2 h2')
-    const bg3 = document.querySelector('#project3 h2')
-    const bg4 = document.querySelector('#project4 h2')
+    const bg1 = document.querySelector('#project1')
+    const bg2 = document.querySelector('#project2')
+    const bg3 = document.querySelector('#project3')
+    const bg4 = document.querySelector('#project4')
     const body = document.querySelector('body')
 
     bg1.addEventListener('mouseover', () => {
