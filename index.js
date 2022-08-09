@@ -43,15 +43,15 @@ document.addEventListener('DOMContentLoaded', () => {
     const body = document.querySelector('body')
 
     bg1.addEventListener('mouseover', () => {
-        body.style.backgroundColor = '#FFB091'
+        body.style.backgroundColor = '#87AB91'
     })
     bg2.addEventListener('mouseover', () => {
-        body.style.backgroundColor = '#EB916E'
+        body.style.backgroundColor = '#B7F7C8'
     })
     bg3.addEventListener('mouseover', () => {
-        body.style.backgroundColor = '#2B9E8B'
+        body.style.backgroundColor = '#6591AB'
     })
     bg4.addEventListener('mouseover', () => {
-        body.style.backgroundColor = '#6EEBD6'
+        body.style.backgroundColor = '#9ED6F7'
     })
 });
