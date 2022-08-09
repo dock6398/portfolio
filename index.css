@@ -34,6 +34,7 @@ body {
     display: block;
     font-size: 16px;
     font-family: 'Pretendard';
+    font-weight: bold;
     color: #000;
     margin-left: 4.4271vw;
     letter-spacing: -0.075em;
@@ -219,6 +220,8 @@ body {
     transform: translateY(-10px);
 }
 .container footer address {
+    font-family: 'DM Sans';
+    font-style: normal;
     color: #fff;
     display: flex;
     flex-flow: column;
