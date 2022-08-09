@@ -54,11 +54,6 @@
         font-size: 50px;
         margin-left: 2.9688vw;
     }
-    .container main #projects_logo span a {
-        font-family: 'arial';
-        color: #000;
-        margin-right: 61px;
-    }
     .container main #projects_logo span a:hover {
         color: #fff;
     }

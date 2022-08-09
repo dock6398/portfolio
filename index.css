@@ -65,21 +65,8 @@ body {
 
 /* main project 로고 */
 .container main #projects_logo {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     font-size: 24px;
     margin-left: 2.9688vw;
-}
-.container main #projects_logo span a {
-    font-family: 'arial';
-    color: #000;
-    font-size: 16px;
-    margin-right: 3.1771vw;
-    letter-spacing: 0.08em;
-}
-.container main #projects_logo span a:hover {
-    color: #fff;
 }
 .container main .project {
     width: 80%;
