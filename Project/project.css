@@ -1,0 +1,258 @@
+@charset "UTF-8";
+
+body {
+    font-family: 'SourceSerif4', 'Noto Sans Kr', '맑은 고딕', '돋움체', sans-serif;
+}
+
+/* header 영역 */
+header h2 {
+    font-size: 32px;
+    font-family: 'Pretendard';
+    margin-top: 145px;
+    margin-left: 12.7604vw;
+}
+header h1 {
+    font-size: 52px;
+    width: 20.8333vw;
+    line-height: 1;
+    margin-top: 63px;
+    margin-left: 12.7604vw;
+}
+header .box {
+    border: 6px solid #000;
+}
+header #head_box {
+    position: relative;
+}
+header #box1 {
+    border-radius: 50px;
+    width: 59.8958vw;
+    height: 36.4583vw;
+    min-width: 270px;
+    min-height: 163px;
+    margin-top: 121px;
+    margin-left: 20.2604vw;
+    background: url(./images/FORENA_pc.png) no-repeat 50% / cover;
+}
+header #box2 {
+    border-radius: 25px;
+    width: 13.2292vw;
+    min-width: 77px;
+    height: 27.1875vw;
+    min-height: 150px;
+    background: url(./images/FORENA_mo.png) no-repeat 50% / cover;
+    position: absolute;
+    top: 13.1772vw; left: 71.0102vw;
+}
+header a {
+    display: block;
+    width: 200px; height: 60px; color: #000;
+    text-align: center;
+    line-height: 60px;
+    border: 1px solid #000;
+    font-family: 'Pretendard';
+    font-weight: bold;
+    font-size: 16px;
+    margin: 0 auto;
+    margin-top: 91px;
+    transition: .5s;
+}
+header a:hover {
+    background-color: #000;
+    color: #fff;
+    transform: translateY(-10px);
+}
+
+/* overview 영역 */
+main article .overview {
+    margin-left: 12.7604vw;
+    margin-top: 120px;
+}
+main article .overview h2 {
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: -0.02em;
+}
+main article .overview p {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Pretendard';
+    letter-spacing: 0.02em;
+    margin-top: 52px;
+    margin-bottom: 37px;
+    margin-right: 12.7604vw;
+}
+main article .overview span {
+    display: block;
+    font-weight: 400;
+    font-family: 'Pretendard';
+    letter-spacing: 0.02em;
+    margin-right: 12.7604vw;
+}
+
+/* design 영역 */
+main aside .design {
+    width: 78.9063vw;
+    background-color: #eee;
+    margin: 68px auto;
+    border-radius: 25px;
+}
+main aside .design h1 {
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 77px;
+    margin-left: 3.4896vw;
+}
+main aside .design h2 {
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 0.02em;
+    margin-top: 45px;
+}
+main aside .design p {
+    font-family: 'Pretendard';
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    margin-top: 39px;
+}
+main aside .design .text_box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* concept 영역 */
+main aside .design .concept {
+    margin-left: 3.4896vw;
+    margin-right: 3.4896vw;
+}
+
+/* keyword 영역 */
+main aside .design .keyword {
+    margin-left: 3.4896vw;
+    margin-right: 3.4896vw;
+}
+main aside .design .keyword p {
+    display: grid;
+    place-items: center;
+    border: 1px solid #000;
+    border-radius: 50%;
+    width: 13.0208vw; height: 13.0208vw;
+    min-width: 75px;
+    min-height: 75px;
+}
+/* color 영역 */
+main aside .design .color {
+    margin-left: 3.4896vw;
+    margin-right: 3.4896vw;
+}
+main aside .design .color p {
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    width: 10.4167vw; height: 10.4167vw;
+    min-width: 50px;
+    min-height: 50px;
+    text-align: center;
+}
+main aside .design .color p:nth-child(1) {
+    background-color: #000;
+    color: #fff;
+}
+main aside .design .color p:nth-child(2) {
+    background-color: #fff;
+    color: #000;
+}
+main aside .design .color p:nth-child(3) {
+    background-color: #036;
+    color: #fff;
+}
+main aside .design .color p:nth-child(4) {
+    background-color: #03C;
+    color: #fff;
+}
+/* tpyo 영역 */
+main aside .design .tpyography {
+    margin-left: 3.4896vw;
+    margin-right: 3.4896vw;
+}
+main aside .design .tpyography .box {
+    justify-content: space-between;
+}
+main aside .design .tpyography p {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+main aside .design .tpyography span {
+    margin-bottom: 77px;
+}
+main aside .design .tpyography .fira, main aside .design .tpyography .Noto {
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+}
+main aside .design .tpyography .fira {
+    font-family: 'Fira Sans';
+}
+main aside .design .tpyography .Noto {
+    font-family: "Noto Sans Kr";
+}
+
+/* problem 영역 */
+main section .problems {
+    margin-left: 12.7604vw;
+}
+main section .problems h1 {
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: -0.02em;
+    margin-top: 45px;
+}
+main section .problems p {
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 0.02em;
+    color: red;
+    margin-top: 45px;
+}
+main section .problems p:first-child {
+    margin-top: 42px;
+}
+main section .problems span {
+    font-family: 'Pretendard';
+    font-weight: 400;
+    width: 80vw;
+    letter-spacing: 0.02em;
+    display: block;
+    color: #000;
+    margin: 25px 1.0417vw 12px;
+}
+main section .problems .text span:last-child {
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+/* footer 영역 */
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 61px;
+}
+footer .home_button , footer .next_button {
+    text-align: center;
+    margin-bottom: 50px;
+}
+footer .home_button a, footer .next_button a {
+    font-family: 'Pretendard';
+    font-weight: bold;
+    color: #fff;
+    display: block;
+    padding: 10px 20px;
+}
+footer .home_button {
+    background-color: #036;
+}
+footer .next_button {
+    background-color: #03C;
+}

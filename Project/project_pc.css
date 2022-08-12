@@ -1,0 +1,101 @@
+@media (min-width : 1240px) {
+    /* header 영역 */
+    header h2 {
+        font-size: 36px;
+    }
+    header h1 {
+        font-size: 66px;
+    }
+
+    /* overview 영역 */
+    main article .overview h2 {
+        font-size: 40px;
+    }
+    main article .overview p {
+        font-size: 18px;
+        margin-right: 0;
+        margin-top: 77px;
+    }
+    main article .overview span {
+        margin-right: 0;
+    }
+
+
+    /* design 영역 */
+    main aside .design {
+        margin: 91px auto;  
+    }
+    main aside .design h1 {
+        font-size: 40px;
+        padding-top: 154px;
+    }
+    main aside .design h2 {
+        font-size: 24px;
+        margin-top: 91px;
+    }
+    main aside .design p {
+        margin-top: 67px;
+    }
+    main aside .design .text_box {
+        justify-content: space-around;
+    }
+
+    /* concept 영역 */
+    main aside .design .concept {
+        margin-right: 0;
+    }
+
+    /* keyword 영역 */
+    main aside .design .keyword p {
+        margin-right: 7.3958vw;
+    }   
+    main aside .design .keyword p:last-child {
+        margin-right: 0;
+    }
+
+    /* tpyo 영역 */
+    main aside .design .tpyography .box {
+        justify-content: space-around;
+    }
+    main aside .design .tpyography p {
+        font-size: 100px;
+        margin-bottom: 35px;
+    }
+    main aside .design .tpyography span {
+        font-size: 20px;
+        margin-bottom: 154px;
+    }
+
+    /* problem 영역 */
+    main section .problems h1 {
+        font-size: 40px;
+        margin-top: 90px;
+    }
+    main section .problems p {
+        font-size: 24px;
+        margin-top: 90px;
+    }
+    main section .problems p:first-child {
+        margin-top: 85px;
+    }
+    main section .problems span {
+        display: flex;
+        margin: 50px 1.0417vw 25px;
+    }
+    main section .problems .text span:last-child {
+        margin-top: 0;
+        margin-bottom: 25px;
+    }
+
+    /* footer 영역 */
+    footer {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 123px;
+    }
+    footer .home_button , footer .next_button {
+        text-align: center;
+        margin-bottom: 100px;
+    }
+}
