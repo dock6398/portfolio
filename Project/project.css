@@ -117,7 +117,7 @@ main aside .design p {
 }
 main aside .design .text_box {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -252,7 +252,12 @@ footer .home_button a, footer .next_button a {
 }
 footer .home_button {
     background-color: #036;
+    transition: .5s;
 }
 footer .next_button {
     background-color: #03C;
+    transition: .5s;
+}
+footer .home_button:hover, footer .next_button:hover{
+    transform: translateY(-10px);
 }
