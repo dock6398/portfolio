@@ -14,9 +14,6 @@ body {
     padding: 15px 40px;
     transition: 0.5s;
 }
-.container nav .logo:hover {
-    transform: translateY(10px);
-}
 /* 메뉴창 영역 */
 .container nav #gnb {
     width: 100%;
@@ -41,7 +38,7 @@ body {
 header h2 {
     font-size: 32px;
     font-family: 'Pretendard';
-    margin-top: 145px;
+    margin-top: 100px;
     margin-left: 12.7604vw;
 }
 header h1 {
