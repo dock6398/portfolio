@@ -236,12 +236,12 @@ main section .problems .text span:last-child {
 footer {
     width: 100%;
     display: flex;
-    justify-content: space-evenly;
-    margin-top: 61px;
+    justify-content: space-between;
+    margin-top: 221px;
 }
 footer .home_button , footer .next_button {
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 footer .home_button a, footer .next_button a {
     font-family: 'Pretendard';
@@ -250,8 +250,13 @@ footer .home_button a, footer .next_button a {
     text-decoration: underline;
     color: #000;
     display: block;
-    padding: 10px 20px;
     transition: .5s;
+}
+footer .home_button a {
+    margin-left: 160px;
+}
+footer .next_button a {
+    margin-right: 160px;
 }
 footer .home_button a:hover, footer .next_button a:hover{
     transform: translateY(-10px);
