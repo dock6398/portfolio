@@ -246,18 +246,13 @@ footer .home_button , footer .next_button {
 footer .home_button a, footer .next_button a {
     font-family: 'Pretendard';
     font-weight: bold;
-    color: #fff;
+    font-size: 24px;
+    text-decoration: underline;
+    color: #000;
     display: block;
     padding: 10px 20px;
-}
-footer .home_button {
-    background-color: #036;
     transition: .5s;
 }
-footer .next_button {
-    background-color: #03C;
-    transition: .5s;
-}
-footer .home_button:hover, footer .next_button:hover{
+footer .home_button a:hover, footer .next_button a:hover{
     transform: translateY(-10px);
 }
