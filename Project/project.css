@@ -4,6 +4,39 @@ body {
     font-family: 'SourceSerif4', 'Noto Sans Kr', '맑은 고딕', '돋움체', sans-serif;
 }
 
+/* nav 영역 */
+.container nav {
+    display: flex;
+    width: 100%;
+}
+.container nav .logo {
+    font-size: 30px;
+    padding: 15px 40px;
+    transition: 0.5s;
+}
+.container nav .logo:hover {
+    transform: translateY(10px);
+}
+/* 메뉴창 영역 */
+.container nav #gnb {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding-right : 3.0729vw;;
+}
+.container nav #gnb li a {
+    display: block;
+    font-family: 'Pretendard';
+    font-weight: bold;
+    color: #000;
+    margin-left: 4.4271vw;
+    letter-spacing: -0.075em;
+}
+.container nav #gnb li a:hover {
+    color: red;
+}
+
 /* header 영역 */
 header h2 {
     font-size: 32px;
@@ -32,7 +65,7 @@ header #box1 {
     min-height: 163px;
     margin-top: 121px;
     margin-left: 20.2604vw;
-    background: url(./images/FORENA_pc.png) no-repeat 50% / cover;
+    background: url(./images/FORENA_pc.png) no-repeat 0 0 / cover;
 }
 header #box2 {
     border-radius: 25px;
@@ -40,9 +73,18 @@ header #box2 {
     min-width: 77px;
     height: 27.1875vw;
     min-height: 150px;
-    background: url(./images/FORENA_mo.png) no-repeat 50% / cover;
     position: absolute;
     top: 13.1772vw; left: 71.0102vw;
+    overflow: hidden;
+}
+header #box2 img {
+    width: 100%;
+    animation: scroll 30s linear infinite;
+}
+@keyframes scroll {
+    100% {
+        transform: translateY(-84%);
+    }
 }
 header a {
     display: block;
@@ -86,6 +128,7 @@ main article .overview span {
     display: block;
     font-weight: 400;
     font-family: 'Pretendard';
+    line-height: 24px;
     letter-spacing: 0.02em;
     margin-right: 12.7604vw;
 }
@@ -226,12 +269,33 @@ main section .problems span {
     letter-spacing: 0.02em;
     display: block;
     color: #000;
-    margin: 25px 1.0417vw 12px;
+    margin: 25px 1.0417vw 10px;
 }
 main section .problems .text span:last-child {
     margin-top: 0;
     margin-bottom: 12px;
 }
+
+/* view 영역 */
+.view a {
+    display: block;
+    width: 200px; height: 60px; color: #000;
+    text-align: center;
+    line-height: 60px;
+    border: 1px solid #000;
+    font-family: 'Pretendard';
+    font-weight: bold;
+    font-size: 16px;
+    margin: 0 auto;
+    margin-top: 191px;
+    transition: .5s;
+}
+.view a:hover {
+    background-color: #000;
+    color: #fff;
+    transform: translateY(-10px);
+}
+
 /* footer 영역 */
 footer {
     width: 100%;
