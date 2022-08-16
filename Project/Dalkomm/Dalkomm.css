@@ -1,0 +1,215 @@
+@charset "UTF-8";
+body {
+    width: 100%;
+    background-color: #fbf4e4;
+}
+.container {
+    font-family: 'Spoqa Han Sans Neo', 'Noto Sans Kr', '돋움', '굴림', '맑은고딕', sans-serif;
+    line-height: 1.5;
+    color: #222;
+}
+/* header nav */
+.container header nav {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+/* nav toggle로 바뀌는 부분 */
+.container header nav.toggle {
+    background-color: #FFF;
+}
+/* nav 로고 */
+.container header nav h1 img {  
+    width: 102px; height: 26px;
+    margin-left: 16px;
+}
+/* nav 햄버거 버튼 */
+.container header nav .button {
+    width: 20px; height: 30px;
+    margin-right: 20px;
+    background: url(./images/menu_button.png) 50% 50%/ cover;
+}
+/* nav 햄버거 toggle로 바뀌는 부분 */
+.container header nav.toggle .button {
+    background: url(./images/chancel.png) 50% 50% / cover;
+}
+/* 대메뉴부분 */
+.container header nav #gnb {
+    width: 100%; height: calc(100vh - 50px);
+    position: absolute;
+    top: 50px;
+    padding-top: 50px;
+    transform: translateX(-100%);
+}
+/* 대메뉴 toggle */
+.container header nav.toggle #gnb {
+    transform: translateX(0);
+    background-color: #FFF;
+}
+.container header nav #gnb li a {
+    width: 100%;
+    display: none;
+    font-size: 30px;
+    font-weight: bold;
+    color: #222;
+    padding: 10px 20px;
+    position: relative;
+    transition: .4s;
+}
+/* 대메뉴 안의 요소 toggle */
+.container header nav.toggle #gnb li a {
+    display: block;
+}
+.container header nav #gnb li a::after {
+    content: '';
+    position: absolute;
+    right: 20px; top: 50%;
+    transform: translateY(-50%);
+    display: block;
+    width: 20px; height: 20px;
+    background : url(./images/ic_arrow_down.svg);
+}
+.container header nav #gnb li:last-child a::after {
+    display: none;
+}
+/* 소메뉴 */
+.container header nav #gnb li ul {
+    padding: 20px;
+}
+/* 소메뉴 내의 요소 toggle */
+.container header nav.toggle #gnb li ul li {
+    display: none;
+}
+.container header nav.toggle #gnb li a.click::after ul li {
+    display: block;
+}
+.container header nav #gnb li ul li a {
+    display: none;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    padding: 10px 0;
+}
+.container header nav #gnb li ul li a::after {
+    display: none;
+}
+/* 메인 영역 */
+.container main #content {
+    word-break: keep-all;
+}
+
+/* big title 영역 */
+.container main #content .big_title {
+    font-weight: 900;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    height: calc(100vh - 50px);
+}
+.container main #content .big_title .fade_up {
+    font-family: "Goldplay Alt";
+    font-size: 12.8vw;
+    line-height: 1.21;
+    color: #f43b00;
+    display: block;
+    position: absolute;
+    left: 50px;
+}
+.container main #content .big_title .fade_up:first-child {
+    top: 150px;
+}
+.container main #content .big_title .fade_up:nth-child(2) {
+    top: 200px;
+}
+.container main #content .big_title .outline {
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #f43b00;
+    -webkit-text-fill-color: transparent;
+    top: 250px;
+    z-index: 2;
+}
+
+/* 이미지 슬라이더 영역 */
+.container main #content #img_slide li img {
+    width: 76.8vw;
+    position: absolute;
+    top: 280px; left: 20px;
+    opacity: 0;
+}
+.container main #content #img_slide li:first-child img {
+    opacity: 1;
+}
+.container main #content #img_slide li .text_wrapper {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #f43b00;
+    position: absolute;
+    top: 665px;
+    right: 20px;
+    opacity: 0;
+    text-align: right;
+}
+.container main #content #img_slide li:first-child .text_wrapper {
+    opacity: 1;
+    z-index: 2;
+}
+.container main #content #img_slide li .text_wrapper a {
+    display: block;
+    font-weight: 700;
+    color: #f43b00;
+    text-decoration: underline;
+    margin-top: 35px;
+}
+
+/* 첫번째 section 영역 */
+.container main #content .section {
+    height: 100vh;
+    display: flex;
+    flex-flow: column;
+    position: relative;
+    color: #f43b00;
+    text-align: center;
+}
+.container main #content .section .section_wrapper h2 {
+    font-family: "SCDream6";
+    font-size: 6.4vw;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+    margin-top: 40%;
+}
+.container main #content .section .section_wrapper .Dal_title {
+    font-family: "Cooper Black";
+    font-size: 12.8vw;
+    font-weight: 900;
+    line-height: 60px;
+    margin: 0 7.6923vw;
+    margin-top: 7.6923vw;
+}
+.container main #content .section .section_wrapper .text {
+    font-size: 4.8vw;
+    line-height: 28px;
+    font-weight: 400;
+    margin-top: 12.8205vw;
+}
+/* 마우스 클릭에 따라 움직임 */
+.container main #content .section .mouse_event .circle_img img {
+    width: 38.7179vw; height: 39.2308vw;
+    position: absolute;
+    top: auto; bottom: 0;
+    right: -8.9744vw;
+}
+.container main #content .section .mouse_event .circle_big img {
+    width: 27.1795vw;
+    height: 27.6923vw;
+    position: absolute;
+    top: -2.5641vw; left: -8.9744vw;
+}
+.container main #content .section .mouse_event .circle_small {
+    width: 6.6667vw; height: 5.1282vw;
+    position: absolute;
+    top: 21.7949vw; left: 23.0769vw;
+}
