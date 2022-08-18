@@ -53,6 +53,15 @@
     font-weight: 400;
 }
 @font-face {
+    font-family: 'DMSans';
+    src: local('DMSans'),
+    url(fonts/DMSans-Regular.woff2),
+    url(fonts/DMSans-Regular.woff);
+    font-style: normal;
+    font-display: swap;
+    font-weight: 400;
+}
+@font-face {
     font-family: 'SourceSerif4';
     src: local('SourceSerif4'),
     url(fonts/SourceSerif4-Regular.woff2),
@@ -69,4 +78,76 @@
     font-style: normal;
     font-display: swap;
     font-weight: 500;
+}
+@font-face {
+    font-family: 'Pretendard';
+    src: local('Pretendard'),
+    url(fonts/Pretendard-Bold.woff2),
+    url(fonts/Pretendard-Bold.woff);
+    font-style: normal;
+    font-display: swap;
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'SpoqaHanSansNeo';
+    src: local('SpoqaHanSansNeo'),
+    url(fonts/SpoqaHanSansNeo-Regular.woff2),
+    url(fonts/SpoqaHanSansNeo-Regular.woff);
+    font-style: normal;
+    font-display: swap;
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'SpoqaHanSansNeo';
+    src: local('SpoqaHanSansNeo'),
+    url(fonts/SpoqaHanSansNeo-Medium.woff2),
+    url(fonts/SpoqaHanSansNeo-Medium.woff);
+    font-style: normal;
+    font-display: swap;
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'SpoqaHanSansNeo';
+    src: local('SpoqaHanSansNeo'),
+    url(fonts/SpoqaHanSansNeo-Bold.woff2),
+    url(fonts/SpoqaHanSansNeo-Bold.woff);
+    font-style: normal;
+    font-display: swap;
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'SCDream4';
+    src: local('SCDream4'),
+    url(fonts/SCDream4.woff2),
+    url(fonts/SCDream4.woff);
+    font-style: normal;
+    font-display: swap;
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'SCDream6';
+    src: local('SCDream6'),
+    url(fonts/SCDream6.woff2),
+    url(fonts/SCDream6.woff);
+    font-style: normal;
+    font-display: swap;
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'Goldplay';
+    src: local('Goldplay'),
+    url(fonts/GoldplayAlt-Black.woff2),
+    url(fonts/GoldplayAlt-Black.woff);
+    font-style: normal;
+    font-display: swap;
+    font-weight: 900;
+}
+@font-face {
+    font-family: 'CooperBlackStd';
+    src: local('CooperBlackStd'),
+    url(fonts/CooperBlackStd-Black.woff2),
+    url(fonts/CooperBlackStd-Black.woff);
+    font-style: normal;
+    font-display: swap;
+    font-weight: 900;
 }
