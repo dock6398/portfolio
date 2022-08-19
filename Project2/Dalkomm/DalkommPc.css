@@ -307,5 +307,27 @@
     .container footer .site_wrap .copyright_wrap {
         font-size: 14px;
         line-height: 21px;
+        margin-bottom: 30px;
+    }
+
+    /* 스토어 영역 */
+    .container footer .playstore {
+        font-size: 16px;
+        line-height: 50px;
+        align-items: center;
+    }
+    .container footer .playstore .apple_btn {
+        width: auto;
+        height: 50px; padding: 0 30px;
+    }
+    .container footer .playstore .google_btn {
+        width: auto;
+        height: 50px; padding: 0 35px;
+    }
+    .container footer .playstore .QRcode {
+        display: block;
+    }
+    .container footer .playstore .QRcode img {
+        width: 100px;
     }
 }
