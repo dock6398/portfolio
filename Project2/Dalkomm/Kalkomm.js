@@ -123,7 +123,7 @@ const fadein6 = document.querySelector('.support_fade .support_title')
 let height6 = fadein6.offsetTop - document.documentElement.clientHeight;
 
 addEventListener('scroll', () => {
-    if(scrollY > height6 + 100) {
+    if(scrollY > height6) {
         fadein6.classList.add('fadein')
     } else if(scrollY < height6) {
         fadein6.classList.remove('fadein')

@@ -292,6 +292,7 @@ body {
     height: 27.6923vw;
     position: absolute;
     top: -2.5641vw; left: -8.9744vw;
+    bottom: 0;
     background: url(./images/circle_big.svg) no-repeat;
     background-size: 100%;
 }
@@ -309,7 +310,6 @@ body {
     flex-flow: column;
     text-align: center;
     color: #2A31A0;
-    letter-spacing: -0.1em;
     background: transparent url(./images/bg_dal_story.svg) no-repeat center bottom;
     background-position: 50% bottom;
     background-size: auto 78.4615vw;
@@ -411,7 +411,7 @@ body {
 .container main #content .play .home svg {
     height: 82vw; width: 90vw;
     position: absolute;
-    left: -20px; bottom: 15vw;
+    left: -20px; bottom: 35px;
 }
 .container main #content .play .home svg path {
     fill: none;
@@ -680,9 +680,9 @@ body {
 .container footer .site_wrap .selet_wrap {
     margin-top: 30px;
     width: 100%; height: 64px; line-height: 64px;
-    background-size: 20px 20px;
+    background-size: 20px;
 }
-.container footer .site_wrap .selet_wrap select {
+.container footer .site_wrap .selet_wrap .select {
     width: 100%; height: 64px; line-height: 64px;
     font-size: 14px;
     border: 0;
@@ -697,7 +697,7 @@ body {
 .container footer .site_wrap .copyright_wrap {
     margin: 50px 0;
     font-size: 11px;
-    font-weight: 400;
+    font-weight: 500;
     line-height: 16.5px;
     color: #bbb;
 }
