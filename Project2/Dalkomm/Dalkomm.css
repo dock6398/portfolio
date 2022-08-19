@@ -198,12 +198,18 @@ body {
 .container main #content .swiper .swiper-wrapper .swiper-slide {
     width: 100%; height: auto;
 }
+.container main #content .swiper .swiper-wrapper .swiper-slide .slide_wrapper {
+    width: 76.8vw;
+}
 .container main #content .swiper .swiper-wrapper .swiper-slide img {
     width: 76.8vw;
     display: block;
     position: absolute;
     top: 3.8462vw; left: 20px;
     object-fit: cover;
+}
+.container main #content .swiper .swiper-wrapper .swiper-slide img.onlypc {
+    display: none;
 }
 .container main #content .swiper .swiper-wrapper .swiper-slide .text_wrapper {
     font-size: 18px;
@@ -286,6 +292,7 @@ body {
     right: -8.9744vw;
     background: url(./images/circle_img.png) no-repeat;
     background-size: 100%;
+    z-index: -1;
 }
 .container main #content .section .mouse_event .circle_big {
     width: 27.1795vw;
@@ -295,12 +302,14 @@ body {
     bottom: 0;
     background: url(./images/circle_big.svg) no-repeat;
     background-size: 100%;
+    z-index: -1;
 }
 .container main #content .section .mouse_event .circle_small {
     width: 6.6667vw; height: 5.1282vw;
     position: absolute;
     top: 21.7949vw; left: 23.0769vw;
     background: url(./images/circle_small.svg) no-repeat 50% 50% / cover;
+    z-index: -1;
 }
 
 /* 스토리 영역 */
@@ -482,14 +491,14 @@ body {
     background: transparent url(./images/menu.png) repeat-x left top;
     background-size: auto 250px;
     z-index: 2;
-    animation: move 25s linear infinite;
+    animation: move 20s linear infinite;
 }
 @keyframes move {
     0% {
         background-position-x: 0px;
     }
     100% {
-        background-position-x: 100%;
+        background-position-x: -100%;
     }
 }
 
@@ -522,31 +531,32 @@ body {
     position: relative;
     overflow: hidden;
     width: 100%;
-    margin-top: 70px;
+    margin-top: 60px;
 }
 .container main #content .new_dal .visual #img_flex {
     display: flex;
     align-items: center;
     justify-content: center;
     position: absolute;
-    top: 65vw;
+    top: 50vw; left: -10vw; right: 0;
     width: 100%;
 }
 .container main #content .new_dal .visual #img_flex li {
     width: 24vw; height: 25vw;
-    position: absolute;
-    top: -10px;
+    padding-top: 30px;
+}
+.container main #content .new_dal .visual #img_flex li .img_wrap {
+    width: 24vw;
 }
 .container main #content .new_dal .visual #img_flex li:nth-child(3) {
-    left: -10vw;
+    margin-left: 80px;
 }
 .container main #content .new_dal .visual #img_flex li:nth-child(4) {
-    right: -10vw;
+    margin-left: 76vw;
 }
 .container main #content .new_dal .visual #img_flex li img {
     display: block;
-    width: 24vw;
-    height: 25vw;
+    width: 100%;
 }
 .container main #content .new_dal .visual .app {
     height: 140vw; width: 97vw;
@@ -701,8 +711,11 @@ body {
     line-height: 16.5px;
     color: #bbb;
 }
-.container footer .site_wrap .copyright_wrap .copyright a {
+.container footer .site_wrap .copyright_wrap .company a {
     color: #000;
+}
+.container footer .site_wrap .copyright_wrap .company .pc {
+    display: none;
 }
 
 /* 스토어 영역 */
