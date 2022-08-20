@@ -8,7 +8,6 @@
     .container main #content .section_wrap {
         height: calc(1080px - 120px);
         margin: 0;
-        position: static;
     }
     .container main #content .big_title {
         top: 350px; left: 37%;
@@ -365,6 +364,8 @@
     }
     .container main #content .swiper .swiper-wrapper .swiper-slide .slide_wrapper img {
         top: 0;
+        width: 100%;
+        height: 100%;
     }
     .container main #content .swiper .swiper-wrapper .swiper-slide .text_wrapper {
         top: -40px;
@@ -512,14 +513,20 @@
     }
 
     /* 슬라이더 영역 */
-    .container main #content .swiper .swiper-wrapper .swiper-slide .slide_wrapper img {
+    .container main #content .big_title {
         top: 180px;
     }
+    .container main #content .swiper .swiper-wrapper .swiper-slide .slide_wrapper {
+        top: 350px;
+    }
+    .container main #content .swiper .swiper-wrapper .swiper-slide .slide_wrapper img {
+        width: 100%; height: 100%;
+    }
     .container main #content .swiper .swiper-wrapper .swiper-slide .text_wrapper {
-        top: 140px;
+        top: -40px;
     }
     .container main #content .swiper .swiper-pagination {
-        top: 260px;
+        top: 250px;
     }
 
     /* section 영역 */
@@ -570,7 +577,8 @@
         left: 18%; top: 40px;
     }
     .container main #content .play .home {
-        bottom: -100px; left: 480px;
+        bottom: -100px;
+        margin: 0 auto;
     }
     .container main #content .play .home .mask {
         width: 609px; height: 544px;
