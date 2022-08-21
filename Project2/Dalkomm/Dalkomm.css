@@ -99,9 +99,9 @@ body {
 /* 소메뉴 */
 .container header nav #gnb li ul {
     padding: 20px;
-}
-.container header nav #gnb li ul li a {
     display: none;
+}
+.container header nav #gnb .subMenu li a {
     font-size: 14px;
     font-weight: 500;
     line-height: 21px;
@@ -111,13 +111,13 @@ body {
     display: none;
 }
 /* 소메뉴 내의 요소 toggle */
-.container header nav.toggle #gnb li ul li {
+.container header nav.toggle #gnb .menuButton ul li {
     display: none;
 }
-.container header nav.toggle #gnb li ul.click li {
+.container header nav.toggle #gnb li ul.click {
     display: block;
 }
-.container header nav.toggle #gnb li a::after ul.click li {
+.container header nav.toggle #gnb li a::after ul.click li a {
     display: block;
 }
 /* 메인 영역 */

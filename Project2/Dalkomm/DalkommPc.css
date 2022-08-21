@@ -456,18 +456,20 @@
         font-size: 15px;
     }
     /* hover효과 */
-    .container header nav #gnb li a:hover {
+    .container header nav #gnb .menuButton:hover {
         color: #f43b00;
     }
-    .container header nav #gnb li:hover ul {
+    .container header nav #gnb .hover:hover .subMenu {
         background-color: #fbf4e4;
     }
-    .container header nav #gnb li:hover ul li a {
+    .container header nav #gnb .hover:hover .subMenu {
         display: block;
     }
-    .container header nav #gnb li a:hover::before {
+    .container header nav #gnb .menuButton:hover::before {
         border-bottom: 2px solid #f43b00;
     }
+
+    /* main */
     .container main {
         width: 100%;
         margin: 0 auto;
