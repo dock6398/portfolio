@@ -9,21 +9,13 @@ $(window).scroll(function() {
     return;
 
     if((scrollTop > lastScrollTop) && (lastScrollTop > 0)) {
-        $("header").css("top", "-100px");
+        $("header").css("top", "-200px");
     } else {
         $("header").css("top", "0px");
     }
     lastScrollTop = scrollTop;
     });
 });
-
-// 윈도우 사이즈에 맞춰 마진값 변경
-const section = document.querySelector('.section_wrap')
-const widthSize = window.innerWidth
-
-if(widthSize < 376) {
-    section.style.marginTop="40vw"
-}
 
 // 햄버거 메뉴 toggle 효과
 const button = document.querySelector('.button')
@@ -110,7 +102,7 @@ const fadein5 = document.querySelector('.new_fade')
 let height5 = fadein5.offsetTop - document.documentElement.clientHeight;
 
 addEventListener('scroll', () => {
-    if(scrollY > height5 + 200) {
+    if(scrollY > height5) {
         fadein5.classList.add('fadein')
     } else if(scrollY < height5) {
         fadein5.classList.remove('fadein')
@@ -135,7 +127,7 @@ const fadein7 = document.querySelector('.support_fade p')
 let height7 = fadein7.offsetTop - document.documentElement.clientHeight;
 
 addEventListener('scroll', () => {
-    if(scrollY > height7 + 100) {
+    if(scrollY > height7) {
         fadein7.classList.add('fadein')
     } else if(scrollY < height7) {
         fadein6.classList.remove('fadein')
