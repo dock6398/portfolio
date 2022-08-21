@@ -65,7 +65,6 @@ body {
     color: #222;
     padding: 10px 20px;
     position: relative;
-    transition: .4s;
 }
 .container header nav #gnb li a::after {
     content: '';
@@ -409,6 +408,7 @@ body {
 }
 .container main #content .play .home {
     bottom: 20vw; right: -30vw;
+    overflow-x: hidden;
 }
 .container main #content .play .home .mask {
     height: 92vw; width: 104vw;
