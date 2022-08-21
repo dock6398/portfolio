@@ -465,6 +465,9 @@
     .container header nav #gnb .hover:hover .subMenu {
         display: block;
     }
+    .container header nav #gnb .hover:hover .subMenu li a:hover {
+        color: #f43b00;
+    }
     .container header nav #gnb .menuButton:hover::before {
         border-bottom: 2px solid #f43b00;
     }
