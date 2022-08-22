@@ -139,11 +139,11 @@ addEventListener('scroll', () => {
 
 
 // 마우스 클릭에 움직이는 효과 GSAP
-$.fn.parallax = function (resistance, mouse) {
+$.fn.parallax = function (move, mouse) {
     $el = $(this);
     TweenLite.to($el, 0.5, {
-        x: -((mouse.clientX - window.innerWidth / 2) / resistance),
-        y: -((mouse.clientY - window.innerHeight / 2) / resistance)
+        x: -((mouse.clientX - window.innerWidth / 2) / move),
+        y: -((mouse.clientY - window.innerHeight / 2) / move)
     });
 };
 
