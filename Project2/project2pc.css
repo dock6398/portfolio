@@ -20,46 +20,6 @@
         margin-right: 0;
     }
 
-    /* design 영역 */
-    main .design {
-        margin: 91px auto;  
-    }
-    main .design h2 {
-        font-size: 40px;
-        padding-top: 154px;
-    }
-    main .design h3 {
-        font-size: 24px;
-        margin-top: 91px;
-    }
-    main .design span {
-        margin-top: 67px;
-    }
-    main .design .text_box {
-        justify-content: space-around;
-    }
-
-    /* keyword 영역 */
-    main aside .design .keyword span {
-        margin-right: 7.3958vw;
-    }   
-    main aside .design .keyword span:last-child {
-        margin-right: 0;
-    }
-
-    /* tpyo 영역 */
-    main .design .typography .text_box {
-        justify-content: space-around;
-    }
-    main .design .typography p {
-        font-size: 100px;
-        margin-bottom: 35px;
-    }
-    main .design .typography span {
-        font-size: 20px;
-        margin-bottom: 154px;
-    }
-
     /* problem 영역 */
     main .problems h2 {
         font-size: 40px;
@@ -79,6 +39,19 @@
     main .problems .text span:last-child {
         margin-top: 0;
         margin-bottom: 25px;
+    }
+
+    /* review 영역 */
+    main .review h2 {
+        font-size: 40px;
+        margin-top: 90px;
+    }
+    main .review h3 {
+        font-size: 24px;
+        margin-top: 90px;
+    }
+    main .review span {
+        margin: 50px 1.0417vw 25px;
     }
 
     /* footer 영역 */
