@@ -5,10 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project2</title>
+    <!-- reset -->
     <link rel="stylesheet" href="../common/minireset.css">
+    <!-- font css -->
+    <link rel="stylesheet" href="../common/font.css">
+    <!-- moblie -->
+    <link rel="stylesheet" href="./project2.css">
+    <!-- pc -->
+    <link rel="stylesheet" 
+    href="./project_pc2.css">
+    <!-- jQuery -->
+    <script src="../common/jquery-3.6.0.min.js"></script>
+    <!-- 만든 js -->
+    <script defer src="./project2.js"></script>
 </head>
 <body>
-    <div class="continaer">
+    <div class="container">
             <nav>
                 <!-- nav 영역 -->
                 <h1><a href="https://dock6398.github.io/portfolio/">🍫</a></h1>
@@ -22,20 +34,82 @@
             <header>
                 <h3>달콤 커피</h3>
                 <h2>Dal.komm</h2>
+                <div class="box">
+                    <div class="pc border"></div>
+                    <div class="moblie border"><img src="./images/DalkommMoblie.png" alt=""></div>
+                </div>
             </header>
-            <div class="box">
-                <div class="pc border"></div>
-                <div class="moblie border"></div>
-            </div>
             <main>
                 <div class="overview">
                     <h2>Overview</h2>
                     <p>커피 브랜드의 달콤 반응형 웹 사이트 퍼블리싱</p>
                     <span>
-                        
+                        커피 브랜드의 Dal.komm의 공식 홈페이지를 퍼블리싱 했습니다.<br>배운 기술들을 토대로 사이트를 내 식대로 똑같이 만들어 보았습니다.
                     </span>
                 </div>
+                <div class="design">
+                    <h2>Design</h2>
+                    <div class="keyword">
+                        <h3>Keyword</h3>
+                        <div class="text_box">
+                            <span>다채로운</span>
+                            <span>즐거운</span>
+                            <span>달콤한</span>
+                        </div>
+                    </div>
+                    <div class="color">
+                        <h3>Color</h3>
+                        <div class="text_box">
+                        <span>#f43b00</span>
+                        <span>#2a31a0</span>
+                        <span>#222</span>
+                        <span>#fff</span>
+                        </div>
+                    </div>
+                    <div class="typography">
+                        <h3>Typography</h3>
+                            <div class="text_box">
+                            <div class="cooperBlack"><p>aA</p>
+                            <span>CooperBlack</span>
+                        </div>
+                        <div class="goldplay">
+                           <p>aA</p>
+                           <span>Goldplay</span>
+                        </div>
+                        <div class="scdream">
+                            <p>가나다</p>
+                            <span>SCDream</span>
+                        </div>
+                        <div class="spoqa">
+                            <p>가나다</p>
+                            <span>SpoqaHanSansNeo</span>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="problems">
+                    <h2>Problems & Solution</h2>
+                        <p>1. GSAP</p>
+                        <span>마우스 이벤트 영역 설정 문제 발생</span>
+                        <span>ClientX - window.innerWidth 값으로 해결</span>
+                        <p>2. stroke효과</p>
+                        <span>stroke 효과 시 영역 안에서 보여지지 않는 문제 발생</span>
+                        <span>stroke 효과 영역의 left와 bottom 값을 수정하여 해결</span>
+                        <p>3. Swiper</p>
+                        <span>슬라이더가 일어나지 않는 문제가 발생</span>
+                        <span>.slide_wrapper를 추가 배치 및 태그들 수정하여 문제 해결</span>
+                        <p>4. hover</p>
+                        <span>hover시 영역 밀려 ::before 변화가 생기는 문제 발생 </span>
+                        <span>hover 효과가 적용되는 태그의 padding값과 before 포지션 값을 수정해 문제 해결</span>
+                </div>
             </main>
+            <div class="view">
+                <a href="https://dock6398.github.io/portfolio/Project/FORENA/FORENA" target="_blank">View Site</a>
+            </div>
+            <footer>
+                <div class="home_button"><a href="https://dock6398.github.io/portfolio/">HOME</a></div>
+                <div class="next_button"><a href="#">NEXT</a></div>
+            </footer>
     </div>
 </body>
 </html>
