@@ -38,8 +38,11 @@ $('.menuButton').click(function() {
 // 슬라이더 효과
 const swiper = new Swiper('.swiper', {
     loop : true,
+    autoplay : true,
+    delay : 3000,
     pagination : {
         el: '.swiper-pagination',
+        clickable : true,
     },
 })
 
