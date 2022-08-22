@@ -90,13 +90,7 @@
     footer {
         width: 100%;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         margin-top: 442px;
-    }
-    footer .home_button a {
-        margin-left: 243px;
-    }
-    footer .next_button a {
-        margin-right: 243px;
     }
 }

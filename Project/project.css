@@ -83,24 +83,6 @@ header #box2 img {
         transform: translateY(-84%);
     }
 }
-header a {
-    display: block;
-    width: 200px; height: 60px; color: #000;
-    text-align: center;
-    line-height: 60px;
-    border: 1px solid #000;
-    font-family: 'Pretendard';
-    font-weight: bold;
-    font-size: 16px;
-    margin: 0 auto;
-    margin-top: 91px;
-    transition: .5s;
-}
-header a:hover {
-    background-color: #000;
-    color: #fff;
-    transform: translateY(-10px);
-}
 
 /* overview 영역 */
 main article .overview {
@@ -212,30 +194,27 @@ main aside .design .color p:nth-child(4) {
     color: #fff;
 }
 /* tpyo 영역 */
-main aside .design .tpyography {
+main aside .design .typography {
     margin-left: 3.4896vw;
     margin-right: 3.4896vw;
 }
-main aside .design .tpyography .box {
-    justify-content: space-between;
-}
-main aside .design .tpyography p {
+main aside .design .typography p {
     font-size: 50px;
     font-weight: bold;
     margin-bottom: 15px;
 }
-main aside .design .tpyography span {
+main aside .design .typography span {
     margin-bottom: 77px;
 }
-main aside .design .tpyography .fira, main aside .design .tpyography .Noto {
+main aside .design .typography .fira, main aside .design .typography .Noto {
     display: flex;
     flex-flow: column;
     text-align: center;
 }
-main aside .design .tpyography .fira {
+main aside .design .typography .fira {
     font-family: 'Fira Sans';
 }
-main aside .design .tpyography .Noto {
+main aside .design .typography .Noto {
     font-family: "Noto Sans Kr";
 }
 
@@ -297,7 +276,7 @@ main section .problems .text span:last-child {
 footer {
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-top: 221px;
 }
 footer .home_button , footer .next_button {
@@ -312,12 +291,6 @@ footer .home_button a, footer .next_button a {
     color: #000;
     display: block;
     transition: .5s;
-}
-footer .home_button a {
-    margin-left: 160px;
-}
-footer .next_button a {
-    margin-right: 160px;
 }
 footer .home_button a:hover, footer .next_button a:hover{
     transform: translateY(-10px);
