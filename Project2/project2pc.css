@@ -24,7 +24,7 @@
     /* problem 영역 */
     main .problems h2 {
         font-size: 40px;
-        margin-top: 90px;
+        margin-top: 150px;
     }
     main .problems p {
         font-size: 24px;
@@ -34,11 +34,15 @@
         margin-top: 85px;
     }
     main .problems span {
+        width: 40vw;
         display: flex;
         font-size: 18px;
-        margin: 50px 1.0417vw 25px;
+        margin: 50px 1.0417vw 20px;
     }
-    main .problems .text span:last-child {
+    main .problems .text {
+        text-indent: 15px;
+    }
+    main .problems span:last-child {
         margin-top: 0;
         margin-bottom: 25px;
     }
@@ -46,11 +50,12 @@
     /* review 영역 */
     main .review h2 {
         font-size: 40px;
-        margin-top: 90px;
+        margin-top: 150px;
     }
     main .review span {
         margin: 50px 1.0417vw 25px;
         line-height: 1.8;
+        width: 30vw;
     }
 
     /* footer 영역 */
