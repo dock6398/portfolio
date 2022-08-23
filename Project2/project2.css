@@ -103,12 +103,18 @@ main .overview p {
     margin-bottom: 37px;
     margin-right: 12.7604vw;
 }
+main .overview .tag {
+    display: flex;
+    justify-content: space-around;
+}
 main .overview span {
     display: block;
     font-weight: 400;
     font-family: 'Pretendard';
     line-height: 24px;
     letter-spacing: 0.02em;
+}
+main .overview span:last-child {
     margin-right: 12.7604vw;
 }
 
@@ -160,12 +166,13 @@ main .review h2 {
 main .review span {
     font-family: 'Pretendard';
     font-weight: 400;
-    width: 80vw;
+    font-size: 18px;
+    width: 70vw;
     letter-spacing: 0.02em;
     display: block;
     color: #000;
     margin: 25px 1.0417vw 10px;
-    line-height: 1.4;
+    line-height: 1.6;
 }
 
 /* view 영역 */
