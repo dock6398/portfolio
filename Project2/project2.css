@@ -148,6 +148,9 @@ main .problems span {
     color: #000;
     margin: 40px 1.0417vw 15px;
 }
+main .problems span img {
+    width: 25px;
+}
 main .problems .text {
     margin-top: 0;
     margin-bottom: 25px;
@@ -179,7 +182,6 @@ main .review span {
     color: #000;
     margin: 30px 1.0417vw 10px;
     line-height: 1.6;
-    text-indent: 15px;
 }
 main .review span:last-child {
     margin-top : 10px
