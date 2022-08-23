@@ -141,6 +141,7 @@ main .problems p:first-child {
 main .problems span {
     font-family: 'Pretendard';
     font-weight: 400;
+    font-size: 18px;
     line-height: 1.6;
     width: 65%;
     letter-spacing: 0.02em;
@@ -149,6 +150,7 @@ main .problems span {
     margin: 40px 1.0417vw 15px;
 }
 main .problems .text {
+    font-size: 16px;
     margin-top: 0;
     margin-bottom: 25px;
     text-indent: 15px;
