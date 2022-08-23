@@ -34,9 +34,8 @@
         margin-top: 85px;
     }
     main .problems span {
-        width: 40vw;
+        width: 50%;
         display: flex;
-        font-size: 18px;
         margin: 50px 1.0417vw 20px;
     }
     main .problems .text {
@@ -55,7 +54,7 @@
     main .review span {
         margin: 50px 1.0417vw 25px;
         line-height: 1.8;
-        width: 30vw;
+        width: 50%;
     }
 
     /* footer 영역 */
