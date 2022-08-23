@@ -12,12 +12,13 @@
         font-size: 40px;
     }
     main .overview p {
-        font-size: 20px;
+        font-size: 24px;
         margin-right: 0;
         margin-top: 77px;
     }
     main .overview span {
         margin-right: 0;
+        font-size: 18px;
     }
 
     /* problem 영역 */
@@ -34,6 +35,7 @@
     }
     main .problems span {
         display: flex;
+        font-size: 18px;
         margin: 50px 1.0417vw 25px;
     }
     main .problems .text span:last-child {
@@ -46,12 +48,10 @@
         font-size: 40px;
         margin-top: 90px;
     }
-    main .review h3 {
-        font-size: 24px;
-        margin-top: 90px;
-    }
     main .review span {
         margin: 50px 1.0417vw 25px;
+        font-size: 18px;
+        line-height: 1.8;
     }
 
     /* footer 영역 */

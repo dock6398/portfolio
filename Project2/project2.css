@@ -157,13 +157,6 @@ main .review h2 {
     letter-spacing: -0.02em;
     margin-top: 45px;
 }
-main .review h3 {
-    font-size: 20px;
-    font-weight: bold;
-    color: red;
-    letter-spacing: 0.02em;
-    margin-top: 45px;
-}
 main .review span {
     font-family: 'Pretendard';
     font-weight: 400;
@@ -172,6 +165,7 @@ main .review span {
     display: block;
     color: #000;
     margin: 25px 1.0417vw 10px;
+    line-height: 1.4;
 }
 
 /* view 영역 */
