@@ -151,6 +151,7 @@ main .problems span {
 main .problems .text {
     margin-top: 0;
     margin-bottom: 25px;
+    margin-left: 1.5417vw;
 }
 main .problems .text span:last-child {
     margin-top: 0;
