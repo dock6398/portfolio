@@ -142,7 +142,7 @@ main .problems span {
     font-family: 'Pretendard';
     font-weight: 400;
     line-height: 1.6;
-    width: 60vw;
+    width: 60%;
     letter-spacing: 0.02em;
     display: block;
     color: #000;
@@ -172,7 +172,7 @@ main .review span {
     font-family: 'Pretendard';
     font-weight: 400;
     font-size: 18px;
-    width: 70vw;
+    width: 70%;
     letter-spacing: 0.02em;
     display: block;
     color: #000;
