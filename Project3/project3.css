@@ -1,0 +1,285 @@
+@charset "UTF-8";
+
+body {
+    font-family: 'SourceSerif4', 'Noto Sans Kr', '맑은 고딕', '돋움체', sans-serif;
+}
+
+/* nav 영역 */
+.container nav {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+.container nav .logo {
+    font-size: 30px;
+    padding: 15px 0;
+}
+
+/* 메뉴창 영역 */
+.container nav #gnb {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+.container nav #gnb li a {
+    display: block;
+    font-family: 'Pretendard';
+    font-weight: bold;
+    color: #000;
+    margin-left: 4.4271vw;
+    letter-spacing: -0.075em;
+}
+.container nav #gnb li a:hover {
+    color: red;
+}
+
+/* header 영역 */
+.container header .cupost_logo {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+.container header .cupost_logo img {
+    width: 51.2821vw;
+    margin-top: 100px;
+}
+.container header .cupost_logo h2 {
+    font-size: 18px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.container header .app {
+    width: 51.2821vw;
+    display: block;
+    margin: 70px auto;
+    border: 3px solid #222;
+    border-radius: 15px;
+}
+.container header h1 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #6431E5;
+    margin-left: 10vw;
+}
+.container header .flex {
+    font-size: 18px;
+    display:  flex;
+    margin-left: 10vw;
+}
+.container header .flex span {
+    margin-top: 15px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid #222;
+    margin-left: 50px;
+}
+/* main 영역 */
+.container main h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #6431E5;
+}
+.container main p {
+    font-size: 18px;
+    font-weight: 500;
+    color: #37D243;
+    margin-top: 30px;
+}
+.container main span {
+    display: block;
+    margin-top: 10px;
+    width: calc(100% - 20vw);
+    margin-left: 10px;
+}
+
+/* project 영역 */
+.container main .project {
+    margin-left: 10vw;
+    margin-top: 50px;
+}
+
+/* overview 영역 */
+.container main .overview {
+    margin-left: 10vw;
+    margin-top: 50px;
+}
+.container main .overview span {
+    line-height: 1.7;
+}
+
+/* research */
+.container main .research {
+    margin-top: 50px;
+    margin-left: 10vw;
+}
+.container main .research p {
+    color: #222;
+    width: calc(100% - 10vw);
+}
+.container main .research .flex {
+    width: calc(100% - 10vw);
+    display: flex;
+    justify-content: space-between;
+}
+.container main .research span {
+    margin-top: 50px;
+    background-color: #6431E5;
+    color: #fff;
+    border-radius: 50%;
+    width: 100px; height: 100px;
+    text-align: center;
+    line-height: 100px;
+}
+/* taks */
+.container main .task {
+    margin-top: 50px;
+    margin-left: 10vw;
+}
+/* problems */
+.container main .problems {
+    margin-top: 50px;
+    margin-left: 10vw;
+}
+.container main .problems h3 {
+    font-size: 26px;
+    margin-top: 50px;
+}
+.container main .problems p {
+    width: calc(100% - 10vw);
+}
+/* styleguide */
+.container main .styleguide {
+    margin-top: 50px;
+    margin-left: 10vw;
+}
+.container main .styleguide .flex {
+    width: calc(100% - 10vw);
+    display: flex;
+    justify-content: space-between;
+}
+.container main .styleguide .flex span {
+    border-radius: 50%;
+    background-color: #EBE4FC;
+    width: 100px; height: 100px;
+    text-align: center; line-height: 100px;
+    margin-top: 50px;
+}
+.container main .styleguide .color .flex span:nth-child(1)  {
+    background-color: #511ADC;
+    color: #fff;
+}
+.container main .styleguide .color .flex span:nth-child(2)  {
+    background-color: #EBE4FC;
+}
+.container main .styleguide .color .flex span:nth-child(3)  {
+    background-color: #FFF;
+    border: 1px solid #000;
+}
+.container main .styleguide .color .flex span:nth-child(4)  {
+    background-color: #1A1A1A;
+    color: #fff;
+}
+.container main .styleguide .font h4, .container main .styleguide .font span {
+    font-family: "Pretendard";
+    font-size: 20px;
+    margin-top: 10px;
+}
+.container main .styleguide .font span {
+    font-size: 24px;
+    margin-top: 15px;
+}
+.container main .styleguide .font span:nth-child(3) {
+    font-weight: 300;
+}
+.container main .styleguide .font span:nth-child(4) {
+    font-weight: 400;
+}
+.container main .styleguide .font span:nth-child(5) {
+    font-weight: 500;
+}
+.container main .styleguide .font span:nth-child(6) {
+    font-weight: bold;
+}
+
+/* result */
+.container main .result {
+    margin-top: 50px;
+    margin-left: 10vw;
+}
+/* preview */
+.container main .preview {
+    margin-top: 50px;
+    margin-left: 10vw;
+}
+.container main .preview .video {
+    border: 3px solid #222;
+    border-radius: 15px;
+    width: 300px;
+    overflow: hidden;
+    margin-top: 30px;
+}
+.container main .preview .video video {
+    width: 100%; height: 100%;
+}
+/* evaluation */
+.container main .evaluation {
+    margin-top: 50px;
+    margin-left: 10vw;
+}
+/* review */
+.container main .review {
+    margin-top: 50px;
+    margin-left: 10vw;
+}
+.container main .review p {
+    font-size: 16px;
+    color: #222;
+    width: calc(100% - 10vw);
+    margin-top: 15px;
+    line-height: 1.6;
+}
+
+/* view 영역 */
+.view a {
+    display: block;
+    width: 200px; height: 60px; color: #000;
+    text-align: center;
+    line-height: 60px;
+    border: 1px solid #000;
+    font-family: 'Pretendard';
+    font-weight: bold;
+    font-size: 16px;
+    margin: 0 auto;
+    margin-top: 191px;
+    transition: .5s;
+}
+.view a:hover {
+    background-color: #000;
+    color: #fff;
+    transform: translateY(-10px);
+}
+
+/* footer 영역 */
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 221px;
+}
+footer .home_button {
+    text-align: center;
+    margin-bottom: 100px;
+}
+footer .home_button a {
+    font-family: 'Pretendard';
+    font-weight: bold;
+    font-size: 24px;
+    text-decoration: underline;
+    color: #000;
+    display: block;
+    transition: .5s;
+    margin-left: 10vw;
+}
+footer .home_button a:hover {
+    transform: translateY(-10px);
+}

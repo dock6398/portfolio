@@ -1,0 +1,255 @@
+@media (min-width : 800px) {
+    .container header .cupost_logo img {
+        width: 300px;
+    }
+    .container header .cupost_logo h2 {
+        font-size: 24px;
+        margin-top: 15px;
+    }
+    .container header .app {
+        width: 300px;
+        margin: 70px auto;
+    }
+    .container header h1 {
+        font-size: 36px;
+        font-weight: bold;
+        color: #6431E5;
+        width: calc(100% - 30vw);
+        margin: auto;
+    }
+    .container header .flex {
+        font-size: 20px;
+        margin: 0 20vw;
+    }
+    .container header .flex span {
+        margin-top: 20px;
+        padding-bottom: 10px;
+    }
+
+    /* main 영역 */
+    .container main h2 {
+        font-size: 30px;
+        font-weight: bold;
+        color: #6431E5;
+    }
+    .container main p {
+        font-size: 24px;
+        font-weight: 500;
+        color: #37D243;
+        margin-top: 40px;
+    }
+    .container main span {
+        font-size: 18px;
+        display: block;
+        margin-top: 20px;
+        width: calc(100% - 30vw);
+    }
+    /* project 영역 */
+    .container main .project {
+        margin-left: 15vw;
+        margin-top: 100px;
+    }
+    /* overview 영역 */
+    .container main .overview {
+        margin-left: 15vw;
+        margin-top: 100px;
+    }
+    .container main .overview span {
+        font-size: 18px;
+        line-height: 1.7;
+    }
+    /* research */
+    .container main .research {
+        margin-left: 15vw;
+        margin-top: 100px;
+    }
+    .container main .research p {
+        width: calc(100% - 30vw);
+    }
+    .container main .research .flex {
+        width: calc(100% - 30vw);
+        display: flex;
+        justify-content: space-between;
+    }
+    .container main .research span {
+        width: 150px; height: 150px;
+        line-height: 150px;
+    }
+    /* taks */
+    .container main .task {
+        margin-left: 15vw;
+        margin-top: 100px;
+    }
+    /* problems */
+    .container main .problems {
+        margin-left: 15vw;
+        margin-top: 100px;
+    }
+    .container main .problems p {
+        width: calc(100% - 30vw);
+    }
+    /* styleguide */
+    .container main .styleguide {
+        margin-top: 100px;
+        margin-left: 15vw;
+    }
+    .container main .styleguide .flex {
+        width: calc(100% - 40vw);
+        display: flex;
+        justify-content: space-between;
+    }
+    .container main .styleguide .flex span {
+        width: 150px; height: 150px;
+        line-height: 150px;
+    }
+    .container main .styleguide .font h4, .container main .styleguide .font span {
+        font-family: "Pretendard";
+        font-size: 26px;
+        margin-top: 20px;
+    }
+    .container main .styleguide .font span {
+        margin-top: 20px;
+    }
+    /* result */
+    .container main .result {
+        margin-left: 15vw;
+        margin-top: 100px;
+    }
+    /* preview */
+    .container main .preview {
+        margin-left: 15vw;
+        margin-top: 100px;
+    }
+    .container main .preview .video {
+        margin-top: 50px;
+    }
+    /* evaluation */
+    .container main .evaluation {
+        margin-left: 15vw;
+        margin-top: 100px;
+    }
+    /* review */
+    .container main .review {
+        margin-left: 15vw;
+        margin-top: 100px;
+    }
+    .container main .review p {
+        font-size: 18px;
+        width: calc(100% - 30vw);
+    }
+    /* footer 영역 */
+    footer .home_button a {
+        margin-left: 20vw;
+    }
+}
+@media (min-width : 1200px) {
+    /* header 영역 */
+    .container header .app {
+        margin: 100px auto;
+    }
+    .container header h1 {
+        font-size: 52px;
+        font-weight: bold;
+        color: #6431E5;
+        width: calc(100% - 40vw);
+        margin: auto;
+    }
+    .container header .flex {
+        font-size: 20px;
+        flex-flow: wrap;
+        margin-top: 30px;
+    }
+    .container header .flex span {
+        margin-left: 100px;
+        padding-bottom: 15px;
+    }
+    /* main 영역 */
+    .container main h2 {
+        font-size: 42px;
+        font-weight: bold;
+        color: #6431E5;
+    }
+    .container main p {
+        font-size: 36px;
+        margin-top: 50px;
+    }
+    .container main span {
+        font-size: 20px;
+        width: calc(100% - 20vw);
+    }
+    /* project 영역 */
+    .container main .project {
+        margin-left: 20vw;
+        margin-top: 150px;
+    }
+    /* overview 영역 */
+    .container main .overview {
+        margin-left: 20vw;
+        margin-top: 150px;
+    }
+    /* research */
+    .container main .research {
+        margin-left: 20vw;
+        margin-top: 150px;
+    }
+    .container main .research p {
+        font-size: 24px;
+    }
+    .container main .research .flex {
+        width: calc(100% - 30vw);
+    }
+    .container main .research span {
+        width: 175px; height: 175px;
+        line-height: 175px;
+    }
+    /* taks */
+    .container main .task {
+        margin-left: 20vw;
+        margin-top: 150px;
+    }
+    /* problems */
+    .container main .problems {
+        margin-left: 20vw;
+        margin-top: 150px;
+    }
+    /* styleguide */
+    .container main .styleguide {
+        margin-top: 150px;
+        margin-left: 20vw;
+    }
+    .container main .styleguide .flex {
+        width: calc(100% - 30vw);
+    }
+    /* result */
+    .container main .result {
+        margin-left: 20vw;
+        margin-top: 150px;
+    }
+    .container main .review p {
+        font-size: 18px;
+        width: calc(100% - 40vw);
+    }
+    /* preview */
+    .container main .preview {
+        margin-left: 20vw;
+        margin-top: 150px;
+    }
+    .container main .preview .video {
+        margin-top: 80px;
+    }
+    /* evaluation */
+    .container main .evaluation {
+        margin-left: 20vw;
+        margin-top: 150px;
+    }
+    /* review */
+    .container main .review {
+        margin-left: 20vw;
+        margin-top: 150px;
+    }
+    .container main .review p {
+        font-size: 18px;
+        width: calc(100% - 40vw);
+        margin-top: 6px;
+    }
+}
