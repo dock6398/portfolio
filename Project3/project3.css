@@ -155,7 +155,7 @@ body {
 .container main .styleguide .flex {
     width: calc(100% - 10vw);
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .container main .styleguide .flex span {
     border-radius: 50%;
@@ -240,9 +240,12 @@ body {
 }
 
 /* view 영역 */
+.view {
+    display: flex;
+}
 .view a {
     display: block;
-    width: 200px; height: 60px; color: #000;
+    width: 150px; height: 60px; color: #000;
     text-align: center;
     line-height: 60px;
     border: 1px solid #000;

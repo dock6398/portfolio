@@ -94,7 +94,7 @@
         margin-left: 15vw;
     }
     .container main .styleguide .flex {
-        width: calc(100% - 40vw);
+        width: calc(100% - 20vw);
         display: flex;
         justify-content: space-between;
     }
