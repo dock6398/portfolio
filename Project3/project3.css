@@ -66,12 +66,13 @@ body {
     font-size: 18px;
     display:  flex;
     margin-left: 10vw;
+    flex-flow: column;
 }
 .container header .flex span {
     margin-top: 15px;
     padding-bottom: 6px;
     border-bottom: 1px solid #222;
-    margin-left: 50px;
+    margin-right: 10vw;
 }
 /* main 영역 */
 .container main h2 {

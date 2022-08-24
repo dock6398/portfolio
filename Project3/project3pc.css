@@ -19,11 +19,15 @@
     }
     .container header .flex {
         font-size: 20px;
-        margin: 0 20vw;
+        margin: 0 15vw;
+        flex-flow: wrap;
+        justify-content: flex-start;
     }
     .container header .flex span {
         margin-top: 20px;
         padding-bottom: 10px;
+        margin-right: 50px;
+        margin-left: 0;
     }
 
     /* main 영역 */
