@@ -39,7 +39,6 @@
     .container main p {
         font-size: 24px;
         font-weight: 500;
-        color: #37D243;
         margin-top: 40px;
     }
     .container main span {
@@ -229,8 +228,8 @@
         margin-left: 20vw;
         margin-top: 150px;
     }
-    .container main .review p {
-        font-size: 18px;
+    .container main .result p {
+        font-size: 36px;
         width: calc(100% - 40vw);
     }
     /* preview */
@@ -254,6 +253,6 @@
     .container main .review p {
         font-size: 18px;
         width: calc(100% - 40vw);
-        margin-top: 6px;
+        margin-top: 15px;
     }
 }
