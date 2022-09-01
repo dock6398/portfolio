@@ -48,6 +48,9 @@ header h2 {
     margin-top: 63px;
     margin-left: 12.7604vw;
 }
+header h2 strong {
+    color: #1ace5e;
+}
 header .moblie {
     width: 50%;
     height: 600px;
@@ -87,7 +90,7 @@ main .overview p {
 }
 main .overview .tag {
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
 }
 main .overview span {
     display: block;
@@ -95,6 +98,7 @@ main .overview span {
     font-family: 'Pretendard';
     line-height: 24px;
     letter-spacing: 0.02em;
+    margin-right: 50px;
 }
 main .overview span:last-child {
     margin-right: 12.7604vw;
