@@ -79,7 +79,7 @@ header .moblie img {
 }
 @keyframes scroll {
     100% {
-        transform: translateY(-85%);
+        transform: translateY(-87%);
     }
 }
 
