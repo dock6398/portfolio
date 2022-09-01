@@ -141,8 +141,8 @@
         width: calc(100% - 30vw);
     }
     /* footer 영역 */
-    footer .home_button a {
-        margin-left: 20vw;
+    footer {
+        margin-top: 442px;
     }
 }
 @media (min-width : 1200px) {
