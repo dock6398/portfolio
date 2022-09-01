@@ -723,6 +723,7 @@ body {
     font-weight: bold;
     line-height: 44px;
     justify-content: space-between;
+    margin-top: 20px;
 }
 .container footer .playstore .apple_btn {
     width: 43.7308vw;
@@ -756,4 +757,22 @@ body {
 }
 .container footer .playstore .QRcode {
     display: none;
+}
+.container footer .poto {
+    color: #fff;
+    font-weight: bold;
+    display: block;
+    width: 100%;
+    text-align: right;
+}
+.container footer .poto span {
+    padding: 11px 5px;
+    font-weight: 500;
+    background-color: #000;
+}
+.container footer .poto span:hover {
+    background-color: #FF592E;
+    color: #fff;
+    cursor: pointer;
+    border: 0;
 }
