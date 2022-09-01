@@ -1,0 +1,59 @@
+@media (min-width : 1240px) {
+    /* header 영역 */
+    header h3 {
+        font-size: 36px;
+    }
+    header h2 {
+        font-size: 66px;
+    }
+
+    /* overview 영역 */
+    main .overview h2 {
+        font-size: 40px;
+    }
+    main .overview p {
+        font-size: 24px;
+        margin-right: 0;
+        margin-top: 77px;
+    }
+    main .overview span {
+        margin-right: 0;
+        font-size: 18px;
+    }
+
+    /* problem 영역 */
+    main .problems h2 {
+        font-size: 40px;
+        margin-top: 150px;
+    }
+    main .problems p {
+        font-size: 24px;
+        margin-top: 90px;
+    }
+    main .problems p:first-child {
+        margin-top: 85px;
+    }
+    main .problems span {
+        width: 50%;
+        display: flex;
+        margin: 50px 1.0417vw 20px;
+    }
+    main .problems .text {
+        text-indent: 15px;
+    }
+    main .problems span:last-child {
+        margin-top: 0;
+        margin-bottom: 25px;
+    }
+
+    /* review 영역 */
+    main .review h2 {
+        font-size: 40px;
+        margin-top: 150px;
+    }
+    main .review span {
+        margin: 50px 1.0417vw 15px;
+        line-height: 1.8;
+        width: 50%;
+    }
+}

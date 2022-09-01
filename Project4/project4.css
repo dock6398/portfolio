@@ -1,0 +1,216 @@
+@charset "UTF-8";
+
+body {
+    font-family: 'SourceSerif4', 'Noto Sans Kr', '맑은 고딕', '돋움체', sans-serif;
+}
+
+/* nav 영역 */
+.container nav {
+    display: flex;
+    width: 100%;
+}
+.container nav .logo {
+    font-size: 30px;
+    padding: 15px 40px;
+}
+
+/* 메뉴창 영역 */
+.container nav #gnb {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding-right : 3.0729vw;;
+}
+.container nav #gnb li a {
+    display: block;
+    font-family: 'Pretendard';
+    font-weight: bold;
+    color: #000;
+    margin-left: 4.4271vw;
+    letter-spacing: -0.075em;
+}
+.container nav #gnb li a:hover {
+    color: red;
+}
+
+/* header 영역 */
+header h3 {
+    font-size: 32px;
+    font-family: 'Pretendard';
+    margin-top: 100px;
+    margin-left: 12.7604vw;
+}
+header h2 {
+    font-size: 52px;
+    width: 20.8333vw;
+    line-height: 1;
+    margin-top: 63px;
+    margin-left: 12.7604vw;
+}
+header .moblie {
+    width: 51.2821vw;
+    height: 600px;
+    display: block;
+    margin: 70px auto;
+    border: 6px solid #222;
+    border-radius: 25px;
+    overflow: hidden;
+}
+header .moblie img {
+    animation: scroll 30s linear infinite;
+}
+@keyframes scroll {
+    100% {
+        transform: translateY(-80%);
+    }
+}
+
+/* overview 영역 */
+main .overview {
+    margin-left: 12.7604vw;
+    margin-top: 120px;
+}
+main .overview h2 {
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: -0.02em;
+}
+main .overview p {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Pretendard';
+    letter-spacing: 0.02em;
+    margin-top: 52px;
+    margin-bottom: 37px;
+    margin-right: 12.7604vw;
+}
+main .overview .tag {
+    display: flex;
+    justify-content: space-around;
+}
+main .overview span {
+    display: block;
+    font-weight: 400;
+    font-family: 'Pretendard';
+    line-height: 24px;
+    letter-spacing: 0.02em;
+}
+main .overview span:last-child {
+    margin-right: 12.7604vw;
+}
+
+/* problem 영역 */
+main .problems {
+    margin-left: 12.7604vw;
+}
+main .problems h2 {
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: -0.02em;
+    margin-top: 120px;
+}
+main .problems p {
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 0.02em;
+    color: red;
+    margin-top: 50px;
+}
+main .problems p:first-child {
+    margin-top: 42px;
+}
+main .problems span {
+    font-family: 'Pretendard';
+    font-weight: 400;
+    line-height: 1.6;
+    width: 65%;
+    letter-spacing: 0.02em;
+    display: block;
+    color: #000;
+    margin: 40px 1.0417vw 15px;
+}
+main .problems span img {
+    width: 25px;
+}
+main .problems .text {
+    margin-top: 0;
+    margin-bottom: 25px;
+    text-indent: 15px;
+}
+main .problems .text span:last-child {
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+/* review 영역 */
+main .review {
+    margin-left: 12.7604vw;
+    margin-top: 120px;
+}
+main .review h2 {
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: -0.02em;
+    margin-top: 45px;
+}
+main .review span {
+    font-family: 'Pretendard';
+    font-weight: 400;
+    font-size: 18px;
+    width: 65%;
+    letter-spacing: 0.02em;
+    display: block;
+    color: #000;
+    margin: 30px 1.0417vw 10px;
+    line-height: 1.6;
+}
+main .review span:last-child {
+    margin-top : 10px
+
+}
+
+/* view 영역 */
+.view a {
+    display: block;
+    width: 200px; height: 60px; color: #000;
+    text-align: center;
+    line-height: 60px;
+    border: 1px solid #000;
+    font-family: 'Pretendard';
+    font-weight: bold;
+    font-size: 16px;
+    margin: 0 auto;
+    margin-top: 191px;
+    transition: .5s;
+}
+.view a:hover {
+    background-color: #000;
+    color: #fff;
+    transform: translateY(-10px);
+}
+
+/* footer 영역 */
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 221px;
+}
+footer .home_button {
+    text-align: center;
+    margin-bottom: 100px;
+    margin-left: 100px;
+}
+footer .home_button a {
+    font-family: 'Pretendard';
+    font-weight: bold;
+    font-size: 24px;
+    text-decoration: underline;
+    color: #000;
+    display: block;
+    transition: .5s;
+}
+footer .home_button a:hover {
+    transform: translateY(-10px);
+}
