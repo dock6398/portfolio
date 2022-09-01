@@ -75,8 +75,8 @@
     }
     .container nav #gnb li a {
         display: block;
-        padding-left: 0.78125vw;
-        padding-right: 0.78125vw;
+        padding-left: 1.78125vw;
+        padding-right: 1.78125vw;
     }
     .container nav #gnb li:last-child a img {
         width: 25px;
