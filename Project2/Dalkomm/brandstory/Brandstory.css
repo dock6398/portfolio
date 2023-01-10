@@ -1,0 +1,128 @@
+@charset "UTF-8";
+
+.container {
+    font-family: 'Spoqa Han Sans Neo', 'Noto Sans Kr', '돋움', '굴림', '맑은고딕', sans-serif;
+    line-height: 1.5;
+    color: #222;
+    background-color: rgb(250, 248, 246);
+    
+}
+/* header 영역 */
+.scroll {
+    width: 100%;
+    position: fixed;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(250, 248, 246);
+}
+nav img {
+    display: block;
+}
+/* 햄버거 버튼 */
+nav .button {
+    width: 20px; height: 30px;
+    background: url(../images/menu_button.png) 50% 50% / cover;
+}
+nav.toggle .button {
+    background: url(../images/chancel.png) 50% 50% / cover;
+}
+
+/* 메뉴 영역 */
+nav #gnb {
+    width: 100%; height: calc(100vh - 50px);
+    background-color: #fff;
+    position: absolute;
+    top: 49px; left: 0;
+    padding-top: 50px;
+    transform: translateX(100%);
+}
+nav #gnb .hover {
+    padding: 20px;
+}
+nav #gnb .hover a {
+    display: block;
+    width: 100%;
+    color: #222;
+    position: relative;
+}
+nav #gnb .hover .subMenu {
+    padding-top: 20px;
+    display: none;
+}
+nav #gnb .hover .subMenu.on {
+    display: block;
+}
+nav #gnb .hover .subMenu li {
+    padding-top: 10px;
+    padding-left: 10px;
+    font-weight: 500;
+}
+nav #gnb .hover .menuButton {
+    font-size: 30px;
+    font-weight: bold;
+}
+nav #gnb .hover .menuButton::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%; right: 0;
+    transform: translateY(-50%);
+    width: 20px; height: 20px;
+    background: url(../images/ic_arrow_down.svg);
+}
+nav #gnb .hover:hover .menuButton {
+    color: #FF592E;
+}
+nav #gnb .hover .active {
+    color: #FF592E;
+}
+
+/* nav toggle 영역 */
+nav #gnb .hover .menuButton.on {
+    display: block;
+}
+
+/* main */
+.content {
+    padding-top: 50px;
+}
+
+/* max_wrap */
+.content .max_wrap {
+    display: flex;
+    padding: 15px;
+    justify-content: end;
+    margin-top: 20px;
+}
+.content .max_wrap a {
+    color: #222;
+    font-size: 14px;
+    position: relative;
+    margin-left: 30px;
+}
+.content .max_wrap .before_two {
+    color: #FF592E;
+}
+.content .max_wrap .before_one::before {
+    content: '\00B7';
+    display: block;
+    position: absolute;
+    top: 50%; left: -25px;
+    font-size: 33px;
+    transform: translateY(-50%);
+}
+.content .max_wrap .before_two::before {
+    content: '\00B7 \00B7';
+    display: block;
+    position: absolute;
+    top: 50%; left: -25px;
+    font-size: 33px;
+    transform: translateY(-50%);
+    letter-spacing: -12px;
+    color: #222;
+}
