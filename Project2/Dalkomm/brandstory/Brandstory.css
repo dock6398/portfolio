@@ -130,12 +130,54 @@ nav #gnb .hover .menuButton.on {
 /* brand_intro */
 .brand_intro {
     padding-top: 50px;
+    padding-bottom: 50px;
 }
 .brand_intro .brand_inner {
     padding-left: 16px;
     padding-right: 16px;
 }
 .brand_intro .brand_inner h3 {
-    font-family: "";
-    font-size: 36px;
+    font-family: "Montserrat";
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 50px;
+}
+.brand_intro .brand_inner p {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.brand_intro .brand_button a {
+    border: 1px solid #FF592E;
+    color: #FF592E;
+    display: block;
+    text-align: center;
+    padding: 15px 0;
+    font-weight: 700;
+}
+
+/* logo_type */
+.logo_type {
+    background-color: #fff;
+    padding-top: 50px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.logo_type h3 {
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.logo_type p {
+    text-align: center;
+}
+.logo_type .logo_type_img {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 100px;
+}
+.logo_type .logo_type_img img {
+    width: 100%;
 }
