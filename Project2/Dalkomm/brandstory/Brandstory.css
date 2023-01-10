@@ -126,3 +126,16 @@ nav #gnb .hover .menuButton.on {
     letter-spacing: -12px;
     color: #222;
 }
+
+/* brand_intro */
+.brand_intro {
+    padding-top: 50px;
+}
+.brand_intro .brand_inner {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.brand_intro .brand_inner h3 {
+    font-family: "";
+    font-size: 36px;
+}
