@@ -181,3 +181,36 @@ nav #gnb .hover .menuButton.on {
 .logo_type .logo_type_img img {
     width: 100%;
 }
+
+/* character */
+.character {
+    padding: 100px 16px;
+    background-color: #fff;
+}
+.character h3 {
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.character .flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+.character .flex img {
+    width: 75%; height: auto;
+    margin: 0 auto;
+}
+.character .flex .ch_name {
+    padding: 50px 0;
+}
+.character .flex .ch_name p {
+    font-weight: 700;
+    font-size: 18px;
+    padding-bottom: 50px;
+}
+.character .flex .ch_name img {
+    width: 100px;
+    vertical-align: bottom;
+    margin-right: 15px;
+}
