@@ -62,6 +62,9 @@
     .character .flex {
         flex-wrap: nowrap;
     }
+    .character .reverse {
+        flex-direction: row-reverse;
+    }
     .character .flex img {
         max-width: 350px;
         height: 350px;
@@ -77,5 +80,47 @@
     .character .flex .ch_name .list {
         font-size: 18px;
         padding-left: 50px;
+    }
+
+    /* contents */
+    .contents {
+        padding: 0 20px;
+    }
+    .contents h3 {
+        font-size: 64px;
+        padding-bottom: 100px;
+    }
+    .contents ol li {
+        padding-bottom: 0;
+        margin-top: 0;
+    }
+    .contents .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+    .contents .grid .coffee {
+        grid-column: 1 / 4;
+        grid-row: 1 / 2;
+        background-position: right;
+        padding-left: 30px;
+        height: 400px;
+    }
+    .contents .grid .special {
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+    }
+    .contents .grid .bakery {
+        grid-column: 2 / 4 ;
+    }
+    .contents .grid .title {
+        font-size: 36px;
+    }
+    .contents .grid .title .num {
+        font-size: 22px;
+        padding-bottom: 20px;
+    }
+    .contents .grid .text {
+        font-size: 18px;
     }
 }
