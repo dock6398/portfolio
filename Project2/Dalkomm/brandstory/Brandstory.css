@@ -27,18 +27,25 @@ nav .button {
     width: 20px; height: 30px;
     background: url(../images/menu_button.png) 50% 50% / cover;
 }
+/* 햄버거 버튼 toggle */
 nav.toggle .button {
     background: url(../images/chancel.png) 50% 50% / cover;
 }
-
 /* 메뉴 영역 */
 nav #gnb {
     width: 100%; height: calc(100vh - 50px);
     background-color: #fff;
     position: absolute;
-    top: 49px; left: 0;
+    top: 50px; left: 0;
     padding-top: 50px;
     transform: translateX(100%);
+    transition: .4s;
+}
+nav.toggle #gnb {
+    transform: translateX(0%);
+}
+nav #gnb .hover.open .subMenu li {
+    display: block;
 }
 nav #gnb .hover {
     padding: 20px;
@@ -51,19 +58,25 @@ nav #gnb .hover a {
 }
 nav #gnb .hover .subMenu {
     padding-top: 20px;
-    display: none;
-}
-nav #gnb .hover .subMenu.on {
-    display: block;
 }
 nav #gnb .hover .subMenu li {
     padding-top: 10px;
     padding-left: 10px;
     font-weight: 500;
+    display: none;
+}
+nav #gnb .hover .subMenu li a:hover {
+    color: #FF592E;
+}
+nav #gnb .hover .subMenu.click li {
+    display: block;
 }
 nav #gnb .hover .menuButton {
     font-size: 30px;
     font-weight: bold;
+}
+nav #gnb .hover .menuButton.trun {
+    color: #FF592E;
 }
 nav #gnb .hover .menuButton::after {
     content: "";
@@ -73,6 +86,10 @@ nav #gnb .hover .menuButton::after {
     transform: translateY(-50%);
     width: 20px; height: 20px;
     background: url(../images/ic_arrow_down.svg);
+}
+nav #gnb .hover .menuButton.trun::after {
+    content: "";
+    transform: rotateX(180deg);
 }
 nav #gnb .hover:hover .menuButton {
     color: #FF592E;
@@ -262,6 +279,7 @@ nav #gnb .hover .menuButton.on {
     padding-bottom: 30px;
     margin-top: 20px;
     transition-duration: 1.5s;
+    height: auto;
 }
 .content ol .coffee {
     height: 600px;

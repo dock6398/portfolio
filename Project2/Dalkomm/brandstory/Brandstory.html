@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,9 +9,19 @@
     <link rel="stylesheet" href="../../../common/minireset.css">
     <!-- font css -->
     <link rel="stylesheet" href="../../../common/font.css">
+    <!-- AOS css -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- my css -->
     <link rel="stylesheet" href="./Brandstory.css">
     <link rel="stylesheet" href="./Brandstory_tablet.css">
+
+    <!-- jQuery -->
+    <script src="../../../common/jquery-3.6.0.min.js"></script>
+    <!-- AOS js -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- my js -->
+    <script defer src="./Brandstory.js"></script>
+
 </head>
 <body>
     <div class="container">
@@ -28,7 +38,7 @@
                 <div class="button"></div>
                 <!-- 메뉴 -->              
                 <ul id="gnb">
-                <li class="hover"><a href="#" class="menuButton active">Dal.Komm</a>
+                <li class="hover open"><a href="#" class="menuButton active">Dal.Komm</a>
                     <ul class="subMenu on">
                         <li><a class="active" href="#">브랜드 이야기</a></li>
                         <li><a href="#">App 소개</a></li>
@@ -59,7 +69,7 @@
             </nav>
         </header>
         <main>
-            <div class="content">
+            <div class="contents">
                 <div class="max_wrap">
                     <a href="#">홈</a>
                     <a class="before_one" href="#">Dal.Komm</a>
@@ -80,24 +90,25 @@
                             <br class="mo"> 
                             담은 플랫폼 비지니스로 도약하기 위한 첫 발걸음의
                             <br class="mo"> 
-                            시작으로 브랜드 메세지를 담은 BI 리뉴얼을 선언
+                            시작으로
+                            <br class="pc">
+                            브랜드 메세지를 담은 BI 리뉴얼을 선언
                             <br class="mo"> 
                             하였습니다. '다채로운 삶을 위한 달콤한 상상'
                             <br class="mo"> 
-                            달콤한 상상이 되는 놀이터,
+                            달콤한 상상이 일상이 되는 놀이터,
                             <br> 
                             달콤이 당신의 플레이그라운드로 자리 잡겠습니다.
                             <br class="mo"> 
-                            앞으로의 달콤은 커피, 음료 카테고리 뿐만 아니라
-                            <br class="mo"> 
-                            디저트, 델리메뉴를 강화하고 소비자의
+                            앞으로의 달콤은 커피, 음료 카테고리 뿐만 아니라 디저트, 델리메뉴를 강화하고
+                            <br class="pc">
+                            소비자의
                             <br class="mo"> 
                             일상에서 달콤의 경험 기회를 확대하기 위해 
                             <br class="mo"> 
                             다각적인 market activity를 이어갈 예정입니다.
                             <br> 
-                            또한 모기업 (주)다날의 상생 철학 기반 하에
-                            <br class="mo"> 점주님들과의 Friendship을 견고히 이어 
+                            또한 모기업 (주)다날의 상생 철학 기반 하에점주님들과의 Friendship을 견고히 이어 
                             <br class="mo">
                             나갈 것입니다.</p>
                         <div class="brand_button"><a herf="#">달콤 브랜드 소개서</a></div>
@@ -119,9 +130,10 @@
                 </div>
 
                 <!-- character -->
-                <div class="character">
+                <div class="character" data-aos="fade">
                     <h3>Brand Character</h3>
-                    <div class="flex">
+                    <div class="flex" data-aos="fade-up"
+                    data-aos-anchor-placement="top-bottom">
                         <img src="../images/img_dak-k.png" alt="character">
                         <div class="ch_name">
                             <p>
@@ -163,7 +175,8 @@
                             </dl>
                         </div>
                     </div>
-                    <div class="flex">
+                    <div class="flex reverse" data-aos="fade-up"
+                    data-aos-anchor-placement="top-bottom">
                         <img src="../images/img_fox-m.png" alt="fox">
                         <div class="ch_name">
                             <p>
@@ -210,10 +223,11 @@
                 </div>
 
                 <!-- contents -->
-                <div class="contents">
+                <div class="content" data-aos="fade">
                     <h3>Contents</h3>
                     <ol class="grid">
-                        <li class="coffee">
+                        <li class="coffee" data-aos="fade-up"
+                        data-aos-anchor-placement="top-bottom">
                             <p class="title">
                                 <span class="num">01</span>
                                 COFFEE
@@ -228,7 +242,8 @@
                                 부각 시키는 컨텐츠로 달콤만의 프리미엄의 블렌딩을 추구합니다.
                             </p>
                         </li>
-                        <li class="special">
+                        <li class="special" data-aos="fade-up"
+                        data-aos-anchor-placement="top-bottom">
                             <p class="title">
                                 <span class="num">02</span>
                                 SPECIAL<br>BEVERAGE
@@ -243,7 +258,8 @@
                                 재미까지 함께 선사합니다.
                             </p>
                         </li>
-                        <li class="bakery">
+                        <li class="bakery" data-aos="fade-up"
+                        data-aos-anchor-placement="top-bottom">
                             <p class="title">
                                 <span class="num">03</span>
                                 BAKERY & FOOD
@@ -258,7 +274,8 @@
                                 푸드를 제공합니다.
                             </p>
                         </li>
-                        <li class="good">
+                        <li class="good" data-aos="fade-up"
+                        data-aos-anchor-placement="top-bottom">
                             <p class="title">
                                 <span class="num">04</span>
                                 GOODS
@@ -271,7 +288,8 @@
                                 어디서나 여러분의 취향을 저격합니다.
                             </p>
                         </li>
-                        <li class="music">
+                        <li class="music" data-aos="fade-up"
+                        data-aos-anchor-placement="top-bottom">
                             <p class="title">
                                 <span class="num">05</span>
                                 MUSIC & CULTURE
@@ -288,7 +306,8 @@
                                 접점을 만듭니다.
                             </p>
                         </li>
-                        <li class="char">
+                        <li class="char" data-aos="fade-up"
+                        data-aos-anchor-placement="top-bottom">
                             <p class="title">
                                 <span class="num">06</span>
                                 CHARACTER
@@ -383,5 +402,9 @@
             <a href="https://dock6398.github.io/portfolio/" class="poto"><span>포토폴리오로 바로가기</span></a>
         </footer>
     </div>
+
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>

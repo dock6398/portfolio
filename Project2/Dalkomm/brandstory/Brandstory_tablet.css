@@ -26,6 +26,11 @@
     .brand_intro .brand_inner p .mo {
         display: none;
     }
+    .brand_intro .brand_button a:hover {
+        background-color: #FF592E;
+        color: #fff;
+        cursor: pointer;
+    }
     .brand_intro .brand_button a {
         width: 40%;
         font-size: 20px;
@@ -84,7 +89,7 @@
 
     /* contents */
     .contents {
-        padding: 0 20px;
+        padding: 0;
     }
     .contents h3 {
         font-size: 64px;
@@ -96,22 +101,42 @@
     }
     .contents .grid {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr;
     }
     .contents .grid .coffee {
-        grid-column: 1 / 4;
+        grid-column: 1 / 6;
         grid-row: 1 / 2;
         background-position: right;
         padding-left: 30px;
         height: 400px;
+        margin-bottom: 50px;
     }
     .contents .grid .special {
-        grid-column: 1 / 2;
-        grid-row: 2 / 3;
+        grid-column: 1 / 3;
+        grid-row: 2 / 4;
+        height: 850px;
     }
     .contents .grid .bakery {
-        grid-column: 2 / 4 ;
+        grid-column: 3 / 6 ;
+        grid-row: 2 / 3;
+        height: 400px;
+        margin-left: 50px;
+    }
+    .contents .grid .good {
+        grid-column: 3 / 6;
+        grid-row: 3 / 4;
+        height: 400px;
+        margin-left: 50px;
+    }
+    .contents .grid .music {
+        grid-column: 1 / 4;
+        height: 400px;
+        margin-right: 50px;
+    }
+    .contents .grid .char {
+        grid-column: 4 / 6;
+        height: 400px;
     }
     .contents .grid .title {
         font-size: 36px;
@@ -122,5 +147,81 @@
     }
     .contents .grid .text {
         font-size: 18px;
+    }
+
+    /* footer 영역 */
+    .container footer {
+        padding: 100px 75px;
+    }
+    .container footer .footer_wrap #gnb2 {
+        max-width: 1280px;
+        flex-flow: row;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    .container footer .footer_wrap #gnb2 li strong {
+        font-size: 18px;
+        line-height: 27px;
+        padding: 0;
+    }
+    .container footer .footer_wrap #gnb2 li strong a .ico {
+        display: none;
+    }
+    .container footer .footer_wrap #gnb2 li ul {
+        display: inline-block;
+        padding: 0;
+        margin-top: 35px;
+    }
+    .container footer .footer_wrap #gnb2 li .color {
+        display: inline-block;
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 15px;
+        color: #343434;
+    }
+    .container footer .footer_wrap #gnb2 li .font_color {
+        color: #FF592E;
+    }
+
+    /* selet버튼 영역 */
+    .container footer .site_wrap .selet_wrap {
+        height: 87px; line-height: 87px;
+        background-size: 24px;
+    }
+    .container footer .site_wrap .selet_wrap .select {
+        width: 307px; height: 87px; line-height: 87px;
+        font-size: 18px;
+        cursor: pointer;
+    }
+
+    /* copy 영역 */
+    .container footer .site_wrap .copyright_wrap {
+        font-size: 14px;
+        line-height: 21px;
+        margin-bottom: 30px;
+    }
+
+    /* 스토어 영역 */
+    .container footer .playstore {
+        font-size: 16px;
+        line-height: 50px;
+        align-items: center;
+        justify-content: unset;
+    }
+    .container footer .playstore .apple_btn {
+        width: auto;
+        height: 50px; padding: 0 35px;
+    }
+    .container footer .playstore .google_btn {
+        width: auto;
+        height: 50px; padding: 0 35px;
+        margin-left: 20px;
+    }
+    .container footer .playstore .QRcode {
+        display: block;
+    }
+    .container footer .playstore .QRcode img {
+        width: 100px;
+        margin-left: 20px;
     }
 }
