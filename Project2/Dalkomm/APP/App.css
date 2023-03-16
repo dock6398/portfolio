@@ -5,6 +5,7 @@
     line-height: 1.5;
     color: #222;
     overflow: hidden;
+    word-break: keep-all;
 }
 /* header 영역 */
 .scroll {
@@ -171,8 +172,14 @@ img.cir2 {
 img.cir3 {
     transform: translateX(-250%);
 }
-img.cir4, img.cir5, img.cir6 {
+img.cir4 {
     transform: translateX(50%);
+}
+img.cir5 {
+    transform: translateX(150%);
+}
+img.cir6 {
+    transform: translateX(250%);
 }
 
 .App_visual .visual_inner .img_wrap {
@@ -222,7 +229,7 @@ img.cir4, img.cir5, img.cir6 {
 }
 .nowait .section .text_wrap h3 {
     font-weight: 800;
-    font-size: 30px;
+    font-size: 28px;
     margin-bottom: 20px;
 }
 .nowait .section .text_wrap span {
@@ -238,7 +245,7 @@ img.cir4, img.cir5, img.cir6 {
 
 /* giftcard */
 .giftcard {
-    margin-top: 80px;
+    margin: 80px 0;
     padding: 0 16px;
 }
 .giftcard .text_wrap .title {
@@ -249,4 +256,200 @@ img.cir4, img.cir5, img.cir6 {
     display: block;
     font-size: 14px;
     vertical-align: baseline;
+}
+.giftcard .card {
+    margin-top: 15vw;
+}
+.giftcard .card img {
+    width: 52vw;
+}
+.giftcard .card .card1 {
+    margin-left: 30vw;
+}
+.giftcard .card .card2 {
+    margin-top: -8vw;
+    margin-left: 5vw;
+}
+
+/* mebership */
+.mebership {
+    padding: 15px;
+    height: 160vw;
+    overflow: hidden;
+    background-color: rgb(250, 248, 246);
+    text-align: center;
+}
+.mebership .text_wrap .title {
+    font-size: 28px;
+    font-weight: 800;
+    padding: 10vw 0;
+}
+.mebership .text_wrap span {
+    display: block;
+    font-size: 14px;
+    padding-bottom: 10vw;
+}
+.mebership .img_wrap {
+    width: 76vw;
+    margin: 0 auto;
+    box-shadow: -20px 20px 40px 0 rgba(0, 0, 0, 0.06);
+}
+
+/* footer 영역 */
+.container footer {
+    background-color: #fff;
+    padding: 60px 16px;
+}
+.container footer .footer_wrap img {
+    display: none;
+}
+.container footer .footer_wrap #gnb2 {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+    width: 100%;
+    margin: 0 auto;
+}
+.container footer .footer_wrap #gnb2 li {
+    width: 100%;
+}
+.container footer .footer_wrap #gnb2 li strong {
+    display: block;
+    font-size: 14px;
+    line-height: 21px;
+    padding: 10px;
+    position: relative;
+    width: 100%;
+}
+.container footer .footer_wrap #gnb2 li.active li .color {
+    display: block;
+}
+.container footer .footer_wrap #gnb2 li strong a .ico {
+    width: 20px; height: 20px;
+    display: block;
+    position: absolute;
+    background: url(../images/ic_arrow_down.svg);
+    top: 50%; right: 0;
+    transform: translateY(-50%
+    );
+}
+.container footer .footer_wrap #gnb2 li.trun strong a .ico.click {
+    transform: translateY(-50%
+    ) rotate(180deg);
+}
+.container footer .footer_wrap #gnb2 li ul {
+    padding: 5px 10px;
+    display: none;
+}
+.container footer .footer_wrap #gnb2 li.trun ul {
+    display: block;
+}
+.container footer .footer_wrap #gnb2 li .color {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #222;
+}
+.container footer .footer_wrap #gnb2 li .font_color {
+    color: #FF592E;
+}
+
+/* site wrap 영역 */
+.container footer .site_wrap {
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid #ddd;
+}
+
+/* selet버튼 영역 */
+.container footer .site_wrap .selet_wrap {
+    margin-top: 30px;
+    width: 100%; height: 64px; line-height: 64px;
+    background-size: 20px;
+}
+.container footer .site_wrap .selet_wrap .select {
+    width: 100%; height: 64px; line-height: 64px;
+    font-size: 14px;
+    border: 0;
+    border-bottom: 2px solid #000;
+    font-weight: bold;
+    background: url(../images/select-plus.svg) no-repeat 100% 50%;
+    position: relative;
+    appearance:none
+}
+
+/* copy 영역 */
+.container footer .site_wrap .copyright_wrap {
+    margin: 50px 0;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 16.5px;
+    color: #bbb;
+}
+.container footer .site_wrap .copyright_wrap .company a {
+    color: #000;
+}
+.container footer .site_wrap .copyright_wrap .company .pc {
+    display: none;
+}
+
+/* 스토어 영역 */
+.container footer .playstore {
+    display: flex;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 44px;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.container footer .playstore .apple_btn {
+    width: 43.7308vw;
+    border: #ddd 1px solid;
+    border-radius: 30px;
+}
+.container footer .playstore .apple_btn a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+}
+.container footer .playstore .apple_btn a img {
+    width: 24px; height: 24px;
+    margin-right: 10px;
+}
+.container footer .playstore .google_btn {
+    width: 43.7308vw;
+    border: #ddd 1px solid;
+    border-radius: 30px;
+}
+.container footer .playstore .google_btn a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+}
+.container footer .playstore .google_btn a img {
+    width: 24px; height: 24px;
+    margin-right: 10px;
+}
+.container footer .playstore .QRcode {
+    display: none;
+}
+.container footer .poto {
+    color: #fff;
+    font-weight: bold;
+    display: block;
+    width: 100%;
+    text-align: right;
+}
+.container footer .poto span {
+    padding: 11px 5px;
+    font-weight: 500;
+    background-color: #000;
+}
+.container footer .poto span:hover {
+    background-color: #FF592E;
+    color: #fff;
+    cursor: pointer;
+    border: 0;
 }
