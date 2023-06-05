@@ -1,2 +1,87 @@
 @charset "UTF-8";
 
+.container {
+    width: 100%;
+}
+.header {
+    position: relative;
+    width: 100%;
+}
+.header .inner {
+    color: #fff;
+    background-color: transparent;
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    z-index: 999;
+}
+.header .inner .family {
+    /* display: none; */
+    width: 100%;
+    float: none;
+    padding: 16px 80px 16px 16px;
+    background-color: #333366;
+}
+.header .inner .family ul {
+
+}
+.header .inner .family ul li {
+    display: inline-block;
+    margin-right: 24px;
+}
+.header .inner .family ul li a {
+    display: inline-block;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 8px 0;
+}
+.header .inner .language {
+    display: block;
+    width: 100%;
+    background-color: #4A5677;
+    padding: 12px 18px;
+}
+.header .inner .language ul {
+    display: flex;
+}
+.header .inner .language ul li {
+    font-size: 12px;
+    font-weight: 600;
+}
+.header .inner .language ul li:first-child {
+    padding: 0 16px 0 0;
+}
+.header .inner .language ul li:nth-child(2) {
+    padding: 0 16px;
+}
+.header .inner .language ul li:last-child {
+    padding: 0 0 0 16px;
+}
+.header_theme {
+
+}
+.header_theme .inner .gnb  {
+    display: block;
+    position: fixed;
+    top: 185px;
+    background-color: #fff;
+    width: 100%;
+    z-index: 999;
+}
+.header_theme .inner .gnb .mm {
+    width: 100%;
+    display: block;
+}
+.header_theme .inner .gnb .mm li {
+    width: 100%;
+    display: block;
+}
+.header_theme .inner .gnb .mm li a {
+    display: block;
+    padding: 24px 36px;
+    color: #222;
+    font-size: 20px;
+    font-weight: 700;
+    border-bottom: 1px solid #ddd;
+}
