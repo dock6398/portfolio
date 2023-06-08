@@ -1,5 +1,8 @@
 @charset "UTF-8";
 
+body {
+    width: 100%;
+}
 .container {
     width: 100%;
 }
@@ -77,11 +80,15 @@
     width: 100%;
     display: block;
 }
-.header_theme .inner .gnb .mm li a {
+.header_theme .inner .gnb .mm li .mm_a {
     display: block;
     padding: 24px 36px;
     color: #222;
     font-size: 20px;
     font-weight: 700;
     border-bottom: 1px solid #ddd;
+}
+.header_theme .inner .gnb .mm li .after::after {
+    content: '';
+    background-image: url(./images/icon_gnb_arw_haschild.svg);
 }
